@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link type="text/css" rel="stylesheet" href="css/register.css" />
+    <link href="css/bootstrap.css" rel="stylesheet"/>
+    <link href="css/layer.css" rel="stylesheet"/>
+</head>
+<body>
+    <div class="register-header">
+        <a class="new_logo" href=""></a>
+        <h3>一个账号，尽情玩转<strong>漫浪游戏！</strong></h3>
+    </div>
+    <div class="w400">
+        <div class="register">
+            <div class="register-div fl active">
+                <a href="javascript:void(0);">    手机注册</a>
+            </div>
+            <div class="register-div fl yx">
+                 <a href="javascript:void(0);">    邮箱注册</a>
+            </div>
+        </div>
+        <div class="tab">
+            <ul class="form-horizontal register-con sj active">
+                <li class="form-group">
+                    <input type="text"  placeholder="输入手机号（必须填写）" class="form-control" id="phone">
+                </li>
+                <li class="form-group">
+                    <input type="password"  placeholder="输入密码（必须填写）" class="form-control" id="password">
+                </li>
+                <li class="form-group retitle">
+                    <p>
+                        实名及防沉迷信息填写
+                    </p>
+                </li>
+                <li class="form-group">
+                    <input type="text" class="form-control" placeholder="输入真实姓名（必须填写）" id="name">
+                </li>
+                <li class="form-group">
+                    <input type="text"  placeholder="输入身份证号（选择填写）" class="form-control" id="sfs">
+                </li>
+                <li class="form-group">
+                    <a href="" class="fl xy" target="_blank">用户服务协议</a>
+                    <button class="btn tj fr" onclick="toValidate()">接受协议并注册</button>
+                </li>
+            </ul>
+            <ul class="form-horizontal register-con yx">
+                <li class="form-group">
+                    <input type="text"  placeholder="输入邮箱（必须填写）" class="form-control" id="email">
+                </li>
+                <li class="form-group">
+                    <input type="password"  placeholder="输入密码（必须填写）" class="form-control" id="emailpassword">
+                </li>
+                <li class="form-group retitle">
+                    <p>
+                        实名及防沉迷信息填写
+                    </p>
+                </li>
+                <li class="form-group">
+                    <input type="text" class="form-control" placeholder="输入真实姓名（选择填写）" id="emailname">
+                </li>
+                <li class="form-group">
+                    <input type="text"  placeholder="输入身份证号（选择填写）" class="form-control" id="emailsfs">
+                </li>
+                <li class="form-group">
+                    <a href="" class="fl xy" target="_blank">用户服务协议</a>
+                    <button class="btn  tj fr" onclick="toyoux()">接受协议并注册</button>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="register-footer">
+        <p>旗下网站 重庆漫浪网络科技有限公司 版权所有</p>
+        <div class="cy_box">
+            <a href="" target="_blank" hidefocus="true">漫浪游戏</a>
+            旗下网站 重庆漫浪网络科技有限公司 版权所有<br>24小时客服热线：95105222；未开通95地区或海外用户请拨 +86-21-50504728
+        </div>
+    </div>
+</body>
+<script src="js/jquery-1.9.1.min.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/layer.js"></script>
+<script>
+    function toValidate(){
+        var val = new validate({
+            rules:{
+                phone:"mobile",
+                password:"password",
+                name:"name",
+                sfs:"sfz",
+            },
+            submitFun:function(){
+                toSubmit();
+            }
+        })
+    }
+    function toSubmit(){
+            var user = {
+                Tel:$("#phone").val(),
+                Password:$("#password").val(),
+                RealName:$("#name").val(),
+                IDCard:$("#sfs").val()
+            };
+            $.ajax({
+                url:'xxxx',
+                data:user,
+                type:'post',
+                dataType:'json',
+                success:function(msg){
+                    if(msg=='1'){
+                        layer.open({
+                            type: 1,
+                            area: ['250px', '150px'],
+                            shadeClose: false, //点击遮罩关闭
+                            content: '\<\div style="padding:20px;">验证通过，3秒后自动跳转\<\/div>'
+                        });
+                        function jump(count) {
+                            console.log=Result;
+                            window.setTimeout(function(){
+                                count--;
+                                if(count > 0) {
+
+                                    jump(count);
+                                } else {
+                                    location.href="/";
+                                }
+                            }, 1000);
+                        }
+                        jump(3);
+                    }else{
+                        layer.open({
+                            type: 1,
+                            area: ['200px', '150px'],
+                            shadeClose: true, //点击遮罩关闭
+                            content: '\<\div style="padding:20px;">验证失败 ！！！\<\/div>'
+                        });
+                    }
+                }
+            })
+    }
+
+    function toyoux(){
+        var val = new validate({
+            rules:{
+                email:"email",
+                emailpassword:"password",
+                emailname:"name",
+                emailsfs:"sfz"
+            },
+            submitFun:function(){
+                toyoux1();
+            }
+        })
+    }
+    function toyoux1(){
+        var user = {
+            Email:$("#email").val(),
+            Password:$("#emailpassword").val(),
+            RealName:$("#emailname").val(),
+            IDCard:$("#emailsfs").val()
+        };
+        $.ajax({
+            url:'xxxx',
+            data:user,
+            type:'post',
+            dataType:'json',
+            success:function(msg){
+                if(msg=='1'){
+                    layer.open({
+                        type: 1,
+                        area: ['250px', '150px'],
+                        shadeClose: false, //点击遮罩关闭
+                        content: '\<\div style="padding:20px;">验证通过，3秒后自动跳转\<\/div>'
+                    });
+                    function jump(count) {
+                        console.log=Result;
+                        window.setTimeout(function(){
+                            count--;
+                            if(count > 0) {
+                                jump(count);
+                            } else {
+                                location.href="index.html";
+                            }
+                        }, 1000);
+                    }
+                    jump(3);
+                }else{
+                    layer.open({
+                        type: 1,
+                        area: ['200px', '150px'],
+                        shadeClose: true, //点击遮罩关闭
+                        content: '\<\div style="padding:20px;">验证失败 ！！！\<\/div>'
+                    });
+                }
+            }
+
+        })
+    }
+    $('.register-con:gt(0)').hide();//隐藏大于0
+    var stb=$('.register .register-div');
+    stb.click(function(){
+        $(this).addClass('active')//变成空白
+                .siblings().removeClass('active');//实现后删除节点兄弟姐弟
+        var stb_index=stb.index(this);//index(this)获取对象参数 获取ct的第几个
+        $('.register-con').eq(stb_index).show()//如果ct的和li相等就显示
+                .siblings().hide();//隐藏掉上一个执行
+
+        $('.register-con').eq(stb_index).addClass('active')
+                .siblings().removeClass('active');
+    });
+
+
+</script>
+</html>

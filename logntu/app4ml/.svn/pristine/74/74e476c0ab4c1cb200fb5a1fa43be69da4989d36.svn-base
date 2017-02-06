@@ -1,1 +1,0 @@
-document.write('<div class="margintop"></div><div class="foot"><p>版权所有 @2016</p></div>');

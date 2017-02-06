@@ -1,6 +1,0 @@
-body {font-family: "宋体";font-size: 13px;margin: 0px;}
-.list_short a:link,.list_short a:visited,.list_short a:active{display:block;border:solid 1px #d4d4d4;padding:6px;background:#f3f3f3;text-decoration: none;}
-.list_short a:hover{border:solid 1px #a2a2a0;background:#fff;text-decoration: none;}
-.list_short img{border:0;}
-#list{height: 426px;overflow: auto;margin-top: 4px;padding:6px 6px;}
-.list_short br{line-height: 2px}

@@ -1,0 +1,185 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="../include/head.jsp"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><%=projectTitle%></title>
+<link rel="icon" href="<%=path%>/images/logo/ml_ico.ico"
+	type="image/x-icon" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="<%=path%>/css/style.css" rel="stylesheet" />
+<link href="<%=path%>/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+	<jsp:include page="../include/top.jsp" >
+		<jsp:param name="tag" value="center" />
+	</jsp:include>
+	<div class="w1100 mtb20 color999">
+		您当前的位置：首页 > 个人中心 > 会员推广
+	</div>
+	<div class="main w1100">
+		<jsp:include page="../include/left.jsp" >
+			<jsp:param name="tag" value="extension" />
+		</jsp:include>
+		<div class="main-con fl pt50">
+			<div class="main-con fl">
+		        <div class="schedule">
+		            <div class="fl schedule-div">
+		                <i class="fl i1"></i>
+		                <div class="fl" >
+		                   <p>待付款</p>
+		                   <span>0</span>
+		                </div>
+		            </div>
+		            <div class="fl schedule-div">
+		                <i class="fl i2"></i>
+		                <div class="fl">
+		                    <p>已提交</p>
+		                    <span>0</span>
+		                </div>
+		            </div>
+		            <div class="fl schedule-div">
+		                <i class="fl i3"></i>
+		                <div class="fl">
+		                    <p>已完成</p>
+		                    <span>0</span>
+		                </div>
+		            </div>
+		            <div class="fl schedule-div">
+		                <i class="fl i4"></i>
+		                <div class="fl">
+		                    <p>已取消</p>
+		                    <span>0</span>
+		                </div>
+		            </div>
+		        </div>
+		        <div class="schedule-tab">
+		            <label class="active">我的上级</label>
+		            <label>一级分销</label>
+		            <label>二级分销</label>
+		            <label>三级分销</label>
+		        </div>
+		        <div class="schedule-tabdiv">
+		            <div class="tab-table">
+		                <div class="bd1">
+		                    <table class="table table-striped tab-border schedule-table">
+		                        <thead>
+		                        <tr>
+		                            <th>用户名</th>
+		                            <th>电话号码</th>
+		                            <th>邮箱号码</th>
+		                            <th>微信号码</th>
+		                        </tr>
+		                        </thead>
+		                        <tbody>
+									<tr>
+										<td>s</td>
+										<td>s</td>
+										<td>s</td>
+										<td>s</td>
+									</tr>
+									<tr>
+										<td>s</td>
+										<td>s</td>
+										<td>s</td>
+										<td>s</td>
+									</tr>
+		                        </tbody>
+		                    </table>
+		                </div>
+		                <ul class="page fr">
+		                    <a href="">上一页</a>
+		                    <span>1</span>
+		                    <a href="">下一页</a>
+		                </ul>
+		            </div>
+		            <div class="tab-table">
+		                <div class="bd1">
+		                    <table class="table table-striped tab-border schedule-table">
+		                        <thead>
+		                        <tr>
+		                            <th>用户名</th>
+		                            <th>电话号码</th>
+		                            <th>邮箱号码</th>
+		                            <th>微信号码</th>
+		                        </tr>
+		                        </thead>
+		                        <tbody>
+		
+		                        </tbody>
+		                    </table>
+		                </div>
+		                <ul class="page fr">
+		                    <a href="">上一页</a>
+		                    <span>1</span>
+		                    <a href="">下一页</a>
+		                </ul>
+		            </div>
+		            <div class="tab-table">
+		                <div class="bd1">
+		                    <table class="table table-striped tab-border schedule-table">
+		                        <thead>
+		                        <tr>
+		                            <th>用户名</th>
+		                            <th>电话号码</th>
+		                            <th>邮箱号码</th>
+		                            <th>微信号码</th>
+		                        </tr>
+		                        </thead>
+		                        <tbody>
+		
+		                        </tbody>
+		                    </table>
+		                </div>
+		                <ul class="page fr">
+		                    <a href="">上一页</a>
+		                    <span>1</span>
+		                    <a href="">下一页</a>
+		                </ul>
+		            </div>
+		            <div class="tab-table">
+		                <div class="bd1">
+		                    <table class="table table-striped tab-border schedule-table">
+		                        <thead>
+		                        <tr>
+		                            <th>用户名</th>
+		                            <th>电话号码</th>
+		                            <th>邮箱号码</th>
+		                            <th>微信号码</th>
+		                        </tr>
+		                        </thead>
+		                        <tbody>
+		
+		                        </tbody>
+		                    </table>
+		                </div>
+		                <ul class="page fr">
+		                    <a href="">上一页</a>
+		                    <span>1</span>
+		                    <a href="">下一页</a>
+		                </ul>
+		            </div>
+		        </div>
+		    </div>
+		</div>
+	</div>
+	<jsp:include page="../include/bottom.jsp" />
+</body>
+<script src="<%=path%>/js/jquery-1.9.1.min.js"></script>
+<script src="<%=path%>/js/validate.js"></script>
+<script src="<%=path%>/js/layer.js"></script>
+<script>
+
+$('.tab-table:gt(0)').hide();//隐藏大于0
+var stb1=$('.schedule-tab label');
+stb1.click(function(){
+    $(this).addClass('active')
+            .siblings().removeClass('active');
+    var stb_index1=stb1.index(this);//index(this)获取对象参数 获取ct的第几个
+    $('.tab-table').eq(stb_index1).show()//如果ct的和li相等就显示
+            .siblings().hide();//隐藏掉上一个执行
+});
+</script>
+</html>
+

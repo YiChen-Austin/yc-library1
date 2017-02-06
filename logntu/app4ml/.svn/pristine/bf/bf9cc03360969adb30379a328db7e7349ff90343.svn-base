@@ -1,0 +1,121 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="../include/head.jsp"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><%=projectTitle%></title>
+<link rel="icon" href="<%=path%>/images/logo/ml_ico.ico"
+	type="image/x-icon" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="<%=path%>/css/style.css" rel="stylesheet" />
+<link href="<%=path%>/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+	<jsp:include page="../include/top.jsp" >
+		<jsp:param name="tag" value="center" />
+	</jsp:include>
+	<div class="w1100 mtb20 color999">
+		您当前的位置：首页 > 个人中心 > 绑定银行卡
+	</div>
+	<div class="main w1100">
+		<jsp:include page="../include/left.jsp" >
+			<jsp:param name="tag" value="bank" />
+		</jsp:include>
+		<div class="main-con fl">
+			<div class="spread">
+            <ul class="bank">
+                <li class="bank-li">
+                    <div class="fl name">
+                        持卡人：
+                    </div>
+                    <div class="fl">
+                        <input type="text" class="inputtext" />
+                    </div>
+                </li>
+                <li class="bank-li">
+                    <div class="fl name">
+                        银行名称：
+                    </div>
+                    <div class="bankname fl" name="nice-select">
+                        <input type="text" class="input-bank" value="中国工商银行" readonly>
+                        <ul>
+                            <li data-value="1">中国银行</li>
+                            <li data-value="2">中国中信银行</li>
+                            <li data-value="3">中国浦发银行</li>
+                            <li data-value="4">中国交通银行</li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="bank-li">
+                    <div class="fl name">
+                        银行卡号：
+                    </div>
+                    <div class="fl">
+                        <input type="text"  class="inputtext"/>
+
+                    </div>
+                </li>
+                <li class="bank-li">
+                    <div class="fl name">
+                        开户支行：
+                    </div>
+                    <div class="fl">
+                        <input type="text" class="inputtext" />
+                        <span class="color999">例：中国工商银行建新北路支行</span>
+                    </div>
+                </li>
+                <li class="bank-li">
+                    <div class="fl name">
+                        手机号码：
+                    </div>
+                    <div class="fl">
+                        <input type="text" class="inputtext" />
+
+                    </div>
+                </li>
+                <li class="bank-li">
+                    <div class="fl name">
+                        验证码：
+                    </div>
+                    <div class="fl">
+                        <input type="text" class="input-code" /><a href="javascript:void(0)" class="obtain-code">获取验证码</a>
+                    </div>
+                </li>
+                <li class="bank-li">
+                    <div class="fl name"></div>
+                    <div class="fl">
+                       <button>确认绑定</button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+		</div>
+	</div>
+	<jsp:include page="../include/bottom.jsp" />
+</body>
+<script src="<%=path%>/js/jquery-1.9.1.min.js"></script>
+<script src="<%=path%>/js/validate.js"></script>
+<script src="<%=path%>/js/layer.js"></script>
+<script>
+	$('[name="nice-select"]').click(function(e){
+	    $('[name="nice-select"]').find('ul').hide();
+	    $(this).find('ul').show();
+	    e.stopPropagation();
+	});
+	$('[name="nice-select"] li').hover(function(e){
+	    $(this).toggleClass('on');
+	    e.stopPropagation();
+	});
+	$('[name="nice-select"] li').click(function(e){
+	    var val = $(this).text();
+	    $(this).parents('[name="nice-select"]').find('input').val(val);
+	    $('[name="nice-select"] ul').hide();
+	    e.stopPropagation();
+	});
+	$(document).click(function(){
+	    $('[name="nice-select"] ul').hide();
+	});
+</script>
+</html>
+

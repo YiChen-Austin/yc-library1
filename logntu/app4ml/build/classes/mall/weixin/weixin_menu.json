@@ -1,0 +1,50 @@
+{
+    "button": [
+        {
+            "name": "商城首页",
+            "type": "view",
+            "url": "http://m.qqgo.cc/"
+        },
+        {
+            "name": "精品热卖",
+            "sub_button": [
+               
+                {
+                    "type": "view",
+                    "name": "热卖水果",
+                    "url": "http://m.qqgo.cc/activity/ms"
+                },
+                {
+                    "type": "view",
+                    "name": "人气手机",
+                    "url": "http://m.qqgo.cc/activity/zk"
+                }
+            ]
+        },
+        {
+            "name": "我的服务",
+            "sub_button": [
+                {
+                    "type": "view",
+                    "name": "个人中心",
+                    "url": "http://m.qqgo.cc/wechat/loginWc"
+                },
+                {
+                    "type": "view",
+                    "name": "关于全球狗",
+                    "url": "http://m.qqgo.cc/common/articleOne?articleId=139"
+                },
+                {
+                    "type": "view",
+                    "name": "我的二维码",
+                    "url": "http://m.qqgo.cc/distribution/posters"
+                },
+                {
+                    "type": "view",
+                    "name": "APP下载",
+                    "url": "http://a.app.qq.com/o/simple.jsp?pkgname=com.wzmall.shopping.main.controller"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,237 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="../include/head.jsp"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><%=projectTitle%></title>
+<link rel="icon" href="<%=path%>/images/logo/ml_ico.ico"
+	type="image/x-icon" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="<%=path%>/css/style.css" rel="stylesheet" />
+<link href="<%=path%>/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+	<jsp:include page="../include/top.jsp" >
+		<jsp:param name="tag" value="center" />
+	</jsp:include>
+	<div class="w1100 mtb20 color999">
+		您当前的位置：首页 > 个人中心 > 推广收益
+	</div>
+	<div class="main w1100">
+		<jsp:include page="../include/left.jsp" >
+			<jsp:param name="tag" value="obtain" />
+		</jsp:include>
+		<div class="main-con fl pt50">
+			<ul class="pay-top">
+				<li class="fl active">7月</li>
+				<li class="fl" >8月</li>
+				<li class="fl">9月</li>
+				<li class="fl">10月</li>
+			</ul>
+			<div>
+				<div class="pay-div pay-s">
+				<form class="jl jl1">
+						游戏
+						<select>
+					        <option value="">全部</option>
+						    <option value="1">龙途</option>
+						</select>
+						流程步骤
+						<select>
+					        <option value="">全部</option>
+						    <option value="1">申请打款</option>
+						</select>
+						处理状态
+						<select>
+					        <option value="">全部</option>
+						    <option value="1">已付款</option>
+						</select>
+						<input type="submit"  value="搜索"/>
+					</form>
+					<div>
+						<div  class="bd">
+							<table class="table table-striped tab-border" >
+								<thead>
+									<tr>
+										<th>结算单号</th>
+										<th>游戏名称</th>
+										<th>收益金额</th>
+										<th>提交时间</th>
+										<th>流程步骤</th>
+										<th>处理状态</th>
+										<th>操作</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>201607124213</td>
+										<td>龙途</td>
+										<td>10.00</td>
+										<td>2016-08-22  09:42:06</td>
+										<td>申请打款</td>
+										<td>已付款</td>
+										<td><a href="" class="xq">下载打印</a></td>
+									</tr>
+								</tbody>
+							</table>
+							</div>
+							<ul class="page fr">
+								<a href="">上一页</a>
+								<span>1</span>
+								<a href="">下一页</a>
+							</ul>
+						</div>
+					</div>
+				
+				<div class="pay-div pay-s">
+					<form class="jl jl1">
+						游戏
+						<select>
+					        <option value="">全部</option>
+						    <option value="1">龙途</option>
+						</select>
+						流程步骤
+						<select>
+					        <option value="">全部</option>
+						    <option value="1">申请打款</option>
+						</select>
+						处理状态
+						<select>
+					        <option value="">全部</option>
+						    <option value="1">已付款</option>
+						</select>
+						<input type="submit"  value="搜索"/>
+					</form>
+					<div>
+						<div class="bd1">
+							<table class="table table-striped tab-border">
+								<thead>
+									<tr>
+										<th>时间</th>
+										<th>数量</th>
+										<th>金额</th>
+										<th>状态</th>
+										<th>充值方式</th>
+									</tr>
+								</thead>
+								<tbody id="cz">	
+								</tbody>	
+							</table>
+						</div>
+						<ul class="page fr">
+								<a href="">上一页</a>
+								<span>1</span>
+								<a href="">下一页</a>
+							</ul>
+					</div>
+				</div>
+				<div class="pay-div pay-s">
+					<form class="jl jl1">
+						游戏
+						<select>
+					        <option value="">全部</option>
+						    <option value="1">龙途</option>
+						</select>
+						流程步骤
+						<select>
+					        <option value="">全部</option>
+						    <option value="1">申请打款</option>
+						</select>
+						处理状态
+						<select>
+					        <option value="">全部</option>
+						    <option value="1">已付款</option>
+						</select>
+						<input type="submit"  value="搜索"/>
+					</form>
+					<div>
+						<div class="bd1">
+							<table class="table table-striped tab-border">
+								<thead>
+									<tr>
+										<th>时间</th>
+										<th>数量</th>
+										<th>金额</th>
+										<th>状态</th>
+										<th>充值方式</th>
+									</tr>
+								</thead>
+								<tbody id="tx">	
+								
+								</tbody>	
+							</table>
+						</div>
+						<ul class="page fr">
+								<a href="">上一页</a>
+								<span>1</span>
+								<a href="">下一页</a>
+							</ul>
+					</div>
+				</div>
+				<div class="pay-div pay-s">
+					<form class="jl jl1">
+						游戏
+						<select>
+					        <option value="">全部</option>
+						    <option value="1">龙途</option>
+						</select>
+						流程步骤
+						<select>
+					        <option value="">全部</option>
+						    <option value="1">申请打款</option>
+						</select>
+						处理状态
+						<select>
+					        <option value="">全部</option>
+						    <option value="1">已付款</option>
+						</select>
+						<input type="submit"  value="搜索"/>
+					</form>
+					<div>
+						<div class="bd1">
+							<table class="table table-striped tab-border">
+								<thead>
+									<tr>
+										<th>时间</th>
+										<th>数量</th>
+										<th>金额</th>
+										<th>状态</th>
+										<th>充值方式</th>
+									</tr>
+								</thead>
+								<tbody id="tx">	
+								
+								</tbody>	
+							</table>
+						</div>
+						<ul class="page fr">
+								<a href="">上一页</a>
+								<span>1</span>
+								<a href="">下一页</a>
+							</ul>
+					</div>
+				</div>
+				</div>
+		</div>
+	</div>
+	<jsp:include page="../include/bottom.jsp" />
+</body>
+<script src="<%=path%>/js/jquery-1.9.1.min.js"></script>
+<script src="<%=path%>/js/validate.js"></script>
+<script src="<%=path%>/js/layer.js"></script>
+<script>
+
+$('.pay-s:gt(0)').hide();//隐藏大于0
+var stb1=$('.pay-top li');
+stb1.click(function(){
+    $(this).addClass('active')
+            .siblings().removeClass('active');
+    var stb_index4=stb1.index(this);//index(this)获取对象参数 获取ct的第几个
+    $('.pay-s').eq(stb_index4).show()//如果ct的和li相等就显示
+            .siblings().hide();//隐藏掉上一个执行
+});
+
+</script>
+</html>
+

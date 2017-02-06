@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<something-else-entirely xmlns="http://sumthin.else.entirely" xmlns:proxool="The latest version is available at http://proxool.sourceforge.net/xml-namespace">  
+	<!-- 此配置的注解针对的是proxool 0.9.1 -->
+	<proxool>
+		<!-- 别名 -->
+		<alias>mall</alias>
+		<!-- 数据库连接的URL -->
+		<driver-url>jdbc:mysql://192.168.1.111:3306/mall?characterEncoding=GBK&amp;zeroDateTimeBehavior=convertToNull&amp;transformedBitIsBoolean=true
+		</driver-url>
+		<!-- 数据库驱动类 -->
+		<driver-class>org.gjt.mm.mysql.Driver</driver-class>
+		<driver-properties>
+			<!-- 数据库的用户名 -->
+			<property name="user" value="root" />
+			<!-- 数据库的密码 -->
+			<property name="password" value="rootroot" />
+		</driver-properties>
+		<!-- 最大连接数，默认为15 -->
+		<maximum-connection-count>20</maximum-connection-count>
+		<!-- 最小连接数，默认为5 -->
+		<minimum-connection-count>2</minimum-connection-count>
+		<!-- 如果housekeeper 检测到某个线程的活动时间大于这个数值.它将会杀掉这个线程. 所以确认一下你的服务器的带宽.然后定一个合适的值,默认为5分钟，此处设置为1分钟，以毫秒计 -->
+		<maximum-active-time>60000</maximum-active-time>
+		<!-- 最大连接生命周期 ,默认为4小时，此处设置为5小时，以毫秒计 -->
+		<minimum-connection-count>18000000</minimum-connection-count>
+		<!-- 如果发现了空闲的数据库连接.house keeper 将会用这个语句来测试. 这个语句最好非常快的被执行.如果没有定义,测试过程将会被忽略。 -->
+		<house-keeping-test-sql>select CURRENT_DATE</house-keeping-test-sql>
+		<simultaneous-build-throttle>20</simultaneous-build-throttle>
+		<statistics>15s,10m,1d</statistics>
+		<statistics-log-level>INFO</statistics-log-level>
+		<!-- 以上是常规配置 -->
+
+		<!-- 下面的是其余的一些配置，没有用过都是在网上搜到的，记录下来以备使用 -->
+		<!-- //house keeper 保留线程处于睡眠状态的最长时间,house keeper 的职责就是检查各个连接的状态, //并判断是否需要销毁或者创建.默认为30秒，此处设置为40秒，以毫秒计。 
+			<proxool:house-keeping-sleep-time>40000</proxool:house-keeping-sleep-time> 
+			//详细信息设置。 参数 bool 值 <proxool:verbose>true</proxool:verbose> //如果为true,那么每个被执行的SQL语句将会在执行期被log记录(DEBUG 
+			LEVEL). //你也可以注册一个ConnectionListener (参看ProxoolFacade)得到这些信息 <proxool:trace>true</proxool:trace> 
+			//它是一个逗号分割的信息片段.当一个SQL异常发生时,他的异常信息将与这个信息片段进行比较. //如果在片段中存在,那么这个异常将被认为是个致命错误 
+			(Fatal SQL Exception ). //这种情况下,数据库连接将要被放弃.无论发生什么,这个异常将会被重掷以提供给消费者. //用户最好自己配置一个不同的异常来抛出. 
+			<proxool:fatal-sql-exception>Fatal error</proxool:fatal-sql-exception> //连接池中可用的连接数量.如果当前的连接池中的连接少于这个数值. 
+			//新的连接将被建立(假设没有超过最大可用数). //例如.我们有3个活动连接2个可用连接, 而我们的prototype-count是4, //那么数据库连接池将试图建立另外2个连接. 
+			//这和 minimum-connection-count不同. //minimum-connection-count把活动的连接也计算在内. //prototype-count 
+			是spare connections 的数量 <proxool:prototype-count>2</proxool:prototype-count> -->
+	</proxool>
+</something-else-entirely>  

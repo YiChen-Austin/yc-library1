@@ -1,0 +1,415 @@
+{
+    "serviceCode": 0,
+    "listSlider": [
+        {
+            "picName": "轮播图1",
+            "picUrl": "http://pic.qqgo.cc/A/14034!banner_slider_1.jpg_720x324.jpg",
+            "toType": 0,
+            "wapUrl": "/goods/pdetail?goodsId=10883",
+            "adUrl": "cateId=1512",
+            "iosUrl": "cateId=1512",
+            "picOrder": 0
+        },
+        {
+            "picName": "轮播图2",
+            "picUrl": "http://pic.qqgo.cc/A/14034!banner_slider_2.jpg_720x324.jpg",
+            "toType": 1,
+            "wapUrl": null,
+            "adUrl": "goodsId=10889",
+            "iosUrl": "goodsId=10889",
+            "picOrder": 1
+        },
+        {
+            "picName": "轮播图3",
+            "picUrl": "http://pic.qqgo.cc/A/14034!banner_slider_3.jpg_720x324.jpg",
+            "toType": 2,
+            "wapUrl": "/list?cateId=3",
+            "adUrl": null,
+            "iosUrl": null,
+            "picOrder": 3
+        },
+        {
+            "picName": "轮播图4",
+            "picUrl": "http://pic.qqgo.cc/A/14034!banner_slider_4.jpg_720x324.jpg",
+            "toType": 3,
+            "wapUrl": "/goods/pdetail?goodsId=10884",
+            "adUrl": null,
+            "iosUrl": null,
+            "picOrder": 4
+        },
+        {
+            "picName": "轮播图5",
+            "picUrl": "http://pic.qqgo.cc/A/14034!banner_slider_5.jpg_720x324.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=10885",
+            "adUrl": null,
+            "iosUrl": null,
+            "picOrder": 4
+        },
+        {
+            "picName": "轮播图6",
+            "picUrl": "http://pic.qqgo.cc/A/14034!banner_slider_6.jpg_720x324.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=10889",
+            "adUrl": null,
+            "iosUrl": null,
+            "picOrder": 4
+        }
+    ],
+    "listHot": [
+        {
+            "picName": "红包",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/14034!hot_sale_1.png_225x320.png",
+            "toType": 2,
+            "wapUrl": "/list?cateId=1512",
+            "adUrl": "cateId=1512",
+            "iosUrl": null,
+            "picOrder": 0,
+            "price": 300,
+            "payPrice": 100
+        },
+        {
+            "picName": "活动",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/14034!hot_sale_2.png_225x320.png",
+            "toType": 2,
+            "wapUrl": null,
+            "adUrl": null,
+            "iosUrl": null,
+            "picOrder": 1,
+            "price": 400,
+            "payPrice": 200
+        },
+        {
+            "picName": "特卖3",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/14034!hot_sale_3.png_225x320.png",
+            "toType": 1,
+            "wapUrl": null,
+            "adUrl": null,
+            "iosUrl": null,
+            "picOrder": 2,
+            "price": 0,
+            "payPrice": 100
+        }
+    ],
+    "listFloor": [
+        {
+            "cateId": 1,
+            "cateName": "手机",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "vivoX5Max",
+                    "picTag": "X5Max+清爽放价",
+                    "picUrl": "http://pic.qqgo.cc/A/1413c!1442907938701.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=10890",
+                    "adUrl": "goodsId=10882",
+                    "iosUrl": "goodsId=10882",
+                    "picOrder": 0,
+                    "price": 3251,
+                    "payPrice": 2598
+                },
+                {
+                    "picName": "华为 P8移动4G",
+                    "picTag": "现货发售",
+                    "picUrl": "http://pic.qqgo.cc/A/1413d!1442975026862.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=10882",
+                    "adUrl": "goodsId=10882",
+                    "iosUrl": "goodsId=10882",
+                    "picOrder": 1,
+                    "price": 3251,
+                    "payPrice": 2598
+                },
+                {
+                    "picName": "华为P8 移动4G青春版",
+                    "picTag": "华为旗舰产品",
+                    "picUrl": "http://pic.qqgo.cc/A/1413d!1442975472966.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=10887",
+                    "adUrl": "goodsId=10887",
+                    "iosUrl": "goodsId=10887",
+                    "picOrder": 3,
+                    "price": 2999,
+                    "payPrice": 2999
+                },
+                {
+                    "picName": "金立F103",
+                    "picTag": "双卡双待",
+                    "picUrl": "http://pic.qqgo.cc/A/1413d!1442976852619.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=10888",
+                    "adUrl": "goodsId=10888",
+                    "iosUrl": "goodsId=10888",
+                    "picOrder": 4,
+                    "price": 999,
+                    "payPrice": 799
+                },
+                {
+                    "picName": "金立ELIFE",
+                    "picTag": "纤薄之美",
+                    "picUrl": "http://pic.qqgo.cc/A/1413d!1442978685597.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=10889",
+                    "adUrl": "goodsId=10889",
+                    "iosUrl": "goodsId=10889",
+                    "picOrder": 5,
+                    "price": 305,
+                    "payPrice": 105
+                },
+                {
+                    "picName": "OPPO A11",
+                    "picTag": "高清音质手机",
+                    "picUrl": "http://pic.qqgo.cc/A/1413d!1442980170554.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=10890",
+                    "adUrl": "goodsId=10890",
+                    "iosUrl": "goodsId=10890",
+                    "picOrder": 6,
+                    "price": 999,
+                    "payPrice": 799
+                }
+            ]
+        },
+        {
+            "cateId": 1,
+            "cateName": "配件",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "苹果原装充电器",
+                    "picTag": "苹果认证",
+                    "picUrl": "http://pic.qqgo.cc/A/14146!1443777667819.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/list?goodsId=11006",
+                    "adUrl": "goodsId=11007",
+                    "iosUrl": "goodsId=11007",
+                    "picOrder": 0,
+                    "price": 88,
+                    "payPrice": 88
+                },
+                {
+                    "picName": "喬工iScreen2",
+                    "picTag": "60天无条件换新",
+                    "picUrl": "http://pic.qqgo.cc/A/14146!1443777180141.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": null,
+                    "adUrl": "goodsId=11006",
+                    "iosUrl": "goodsId=11006",
+                    "picOrder": 1,
+                    "price": 99,
+                    "payPrice": 99
+                },
+                {
+                    "picName": "iPhone6来电闪",
+                    "picTag": "炫彩来电",
+                    "picUrl": "http://pic.qqgo.cc/A/14146!1443776291113.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11004",
+                    "adUrl": "goodsId=11004",
+                    "iosUrl": "goodsId=11004",
+                    "picOrder": 3,
+                    "price": 45,
+                    "payPrice": 45
+                },
+                {
+                    "picName": "苹果6保护壳",
+                    "picTag": "百日盛典",
+                    "picUrl": "http://pic.qqgo.cc/A/14146!1443775737507.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11003",
+                    "adUrl": "goodsId=11003",
+                    "iosUrl": "goodsId=11003",
+                    "picOrder": 4,
+                    "price": 304,
+                    "payPrice": 104
+                },
+                {
+                    "picName": "三星NOTE2",
+                    "picTag": "原装正品",
+                    "picUrl": "http://pic.qqgo.cc/A/14146!1443773633065.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11001",
+                    "adUrl": "goodsId=11001",
+                    "iosUrl": "goodsId=11001",
+                    "picOrder": 5,
+                    "price": 9.9,
+                    "payPrice": 9.9
+                },
+                {
+                    "picName": "三星 note2",
+                    "picTag": "三星 note2",
+                    "picUrl": "http://pic.qqgo.cc/A/14146!1443773140806.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11000",
+                    "adUrl": "goodsId=11000",
+                    "iosUrl": "goodsId=11000",
+                    "picOrder": 6,
+                    "price": 0,
+                    "payPrice": 100
+                }
+            ]
+        },
+        {
+            "cateId": 1,
+            "cateName": "合约机",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "华为GX1",
+                    "picTag": "双卡双待",
+                    "picUrl": "http://pic.qqgo.cc/A/14145!1443683400078.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/list?goodsId=10882",
+                    "adUrl": "goodsId=10970",
+                    "iosUrl": "goodsId=10970",
+                    "picOrder": 0,
+                    "price": 1499,
+                    "payPrice": 1399
+                },
+                {
+                    "picName": "vivo32GB版",
+                    "picTag": "清爽放“价”",
+                    "picUrl": "http://pic.qqgo.cc/A/1413c!1442907938701.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": null,
+                    "adUrl": "goodsId=10882",
+                    "iosUrl": "goodsId=10882",
+                    "picOrder": 1,
+                    "price": 3251,
+                    "payPrice": 2598
+                },
+                {
+                    "picName": "P84G合约机",
+                    "picTag": "卓然一体超",
+                    "picUrl": "http://pic.qqgo.cc/A/14145!1443691654366.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=10981",
+                    "adUrl": "goodsId=10981",
+                    "iosUrl": "goodsId=10981",
+                    "picOrder": 3,
+                    "price": 303,
+                    "payPrice": 103
+                },
+                {
+                    "picName": "合约机4",
+                    "picTag": "合约机买点4",
+                    "picUrl": "http://pic.qqgo.cc/A/14145!1443691370762.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=4",
+                    "adUrl": "goodsId=4",
+                    "iosUrl": "goodsId=4",
+                    "picOrder": 4,
+                    "price": 304,
+                    "payPrice": 104
+                },
+                {
+                    "picName": "华为Mate7",
+                    "picTag": "高清大屏",
+                    "picUrl": "http://pic.qqgo.cc/A/14145!1443683400078.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=10980",
+                    "adUrl": "goodsId=10980",
+                    "iosUrl": "goodsId=10980",
+                    "picOrder": 5,
+                    "price": 2899,
+                    "payPrice": 2899
+                },
+                {
+                    "picName": "iPhone6S",
+                    "picTag": "苹果6合约金",
+                    "picUrl": "http://pic.qqgo.cc/A/14145!1443682758709.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=10969",
+                    "adUrl": "goodsId=10969",
+                    "iosUrl": "goodsId=10969",
+                    "picOrder": 6,
+                    "price": 5288,
+                    "payPrice": 5288
+                }
+            ]
+        },
+        {
+            "cateId": 1,
+            "cateName": "套餐",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "4G沃派36套餐",
+                    "picTag": "4G校园套餐",
+                    "picUrl": "http://pic.qqgo.cc/A/14145!1443689162093.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": "/list?goodsId=10977",
+                    "adUrl": "goodsId=10977",
+                    "iosUrl": "goodsId=10977",
+                    "picOrder": 0,
+                    "price": 36,
+                    "payPrice": 36
+                },
+                {
+                    "picName": "套餐2",
+                    "picTag": "套餐买点2",
+                    "picUrl": "http://pic.qqgo.cc/A/14145!1443689054233.png_180x180.png",
+                    "toType": 1,
+                    "wapUrl": null,
+                    "adUrl": "goodsId=2",
+                    "iosUrl": "goodsId=2",
+                    "picOrder": 1,
+                    "price": 302,
+                    "payPrice": 102
+                },
+                {
+                    "picName": "4G沃派26套餐 ",
+                    "picTag": "【校园专享】",
+                    "picUrl": "http://pic.qqgo.cc/A/14145!1443685638897.jpg_180x180.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=10976",
+                    "adUrl": "goodsId=10976",
+                    "iosUrl": "goodsId=10976",
+                    "picOrder": 3,
+                    "price": 26,
+                    "payPrice": 26
+                },
+                {
+                    "picName": "4G飞享套餐",
+                    "picTag": "预付费用",
+                    "picUrl": "http://pic.qqgo.cc/A/14145!1443685576676.jpg_180x180.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=10972",
+                    "adUrl": "goodsId=10972",
+                    "iosUrl": "goodsId=10972",
+                    "picOrder": 4,
+                    "price": 58,
+                    "payPrice": 58
+                },
+                {
+                    "picName": "4G享套餐",
+                    "picTag": "4G享套餐",
+                    "picUrl": "http://pic.qqgo.cc/A/14145!1443685576676.jpg_180x180.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=10972",
+                    "adUrl": "goodsId=10972",
+                    "iosUrl": "goodsId=10972",
+                    "picOrder": 5,
+                    "price": 58,
+                    "payPrice": 58
+                },
+                {
+                    "picName": "4G商旅套餐 ",
+                    "picTag": "全球通",
+                    "picUrl": "http://pic.qqgo.cc/A/14145!1443685472567.jpg_180x180.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=10971",
+                    "adUrl": "goodsId=10971",
+                    "iosUrl": "goodsId=10971",
+                    "picOrder": 6,
+                    "price": 58,
+                    "payPrice": 58
+                }
+            ]
+        }
+    ]
+}

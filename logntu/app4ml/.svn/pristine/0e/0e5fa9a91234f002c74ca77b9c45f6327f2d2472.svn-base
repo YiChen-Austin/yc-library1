@@ -1,0 +1,251 @@
+{
+    "serviceCode": 0,
+    "listTop": [
+        {
+            "picName": "联想（Lenovo）Ideapad300s-14 14英寸轻薄笔记（(I5-6200U 4G 500G 2G独显）红色",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/14037!02duannao1.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11662",
+            "adUrl": "goodsId=11662",
+            "iosUrl": "goodsId=11662",
+            "picOrder": 0,
+            "price": 6649,
+            "payPrice": 6649
+        },
+        {
+            "picName": "热卖",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/14037!02duannao2.png",
+            "toType": 0,
+            "wapUrl": "/list?cateId=50018323",
+            "adUrl": "cateId=50018323",
+            "iosUrl": "cateId=50018323",
+            "picOrder": 1,
+            "price": 400,
+            "payPrice": 200
+        },
+        {
+            "picName": "笔记本",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/14037!02duannao3.png",
+            "toType": 0,
+            "wapUrl": "/list?cateId=1101",
+            "adUrl": "cateId=1101",
+            "iosUrl": "cateId=1101",
+            "picOrder": 2,
+            "price": 0,
+            "payPrice": 100
+        },
+        {
+            "picName": "台式",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/14037!02duannao5.png",
+            "toType": 0,
+            "wapUrl": "/list?cateId=50018323",
+            "adUrl": "cateId=50018323",
+            "iosUrl": "cateId=50018323",
+            "picOrder": 2,
+            "price": 0,
+            "payPrice": 100
+        },
+        {
+            "picName": "平板",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/14037!02duannao4.png",
+            "toType": 0,
+            "wapUrl": "/list?cateId=50019780",
+            "adUrl": "cateId=50019780",
+            "iosUrl": "cateId=50019780",
+            "picOrder": 2,
+            "price": 0,
+            "payPrice": 100
+        }
+    ],
+    "listPro": [
+        {
+            "picName": "ThinkPad E450(20DCA05MCD)14英寸笔记本电脑（i5-4300U 4G 500G 2G独显）",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/15746c8cb!1464227915549.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11628",
+            "adUrl": "goodsId=11628",
+            "iosUrl": "goodsId=11628",
+            "picOrder": 0,
+            "price": 4299,
+            "payPrice": 4299
+        },
+        {
+            "picName": "华硕（Asus）U303LA5010 U303 13.3英寸笔记本电脑 I3-5010U 4G 500G 正版系统 便携",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/15745cec4!1464163908973.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11615",
+            "adUrl": "goodsId=11615",
+            "iosUrl": "goodsId=11615",
+            "picOrder": 0,
+            "price": 3577,
+            "payPrice": 3577
+        },
+         
+        {
+            "picName": "Apple MacBook Pro MJLQ2CH/A 15.4英寸笔记本电脑",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/14165!1446444319364.png_350x350.png",
+            "toType": 1,
+            "wapUrl": "/list?goodsId=11009",
+            "adUrl": "goodsId=11009",
+            "iosUrl": "goodsId=11009",
+            "picOrder": 0,
+            "price": 13356,
+            "payPrice": 13356
+        },
+        {
+            "picName": "ThinkPad E565-20EYA004CD 15.6英寸笔记本电脑 A8-8600P 4G 500G 2G独显",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/15745d7ad!1464166189310.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11618",
+            "adUrl": "goodsId=11618",
+            "iosUrl": "goodsId=11618",
+            "picOrder": 1,
+            "price": 3499,
+            "payPrice": 3499
+        },
+        {
+            "picName": "联想（Lenovo）IdeaPad 710S 13.3英寸超极本电脑（I5-6200U 4G内存 128G纯固态 全高清",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/15748360b!1464321419571.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11026",
+            "adUrl": "goodsId=11666",
+            "iosUrl": "goodsId=11666",
+            "picOrder": 1,
+            "price": 4999,
+            "payPrice": 4999
+        },
+        {
+            "picName": "戴尔(DELL)灵越 14SR-4528B 14英寸笔记本电脑( I5-6200U 4G 500G R5 2G独显 黑)",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1574465a2!1464071458416.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11589",
+            "adUrl": "goodsId=11589",
+            "iosUrl": "goodsId=11589",
+            "picOrder": 3,
+            "price": 3400,
+            "payPrice": 3400
+        },
+        {
+            "picName": "ThinkPad E555 20DHA01MCD 15.6英寸笔记本 A10-7300/4G/500G/独显/win10",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/15745dc79!1464167417517.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11620",
+            "adUrl": "goodsId=11620",
+            "iosUrl": "goodsId=11620",
+            "picOrder": 4,
+            "price": 3499,
+            "payPrice": 3499
+        },
+        {
+            "picName": "联想（ThinkPad ）轻薄系列E550(20DFA07XCD)15.6英寸笔记本电脑 (i5-5200U 4G ）",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/15746d1e9!1464230249097.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11630",
+            "adUrl": "goodsId=11630",
+            "iosUrl": "goodsId=11630",
+            "picOrder": 5,
+            "price": 4299,
+            "payPrice": 4299
+        },      
+        {
+            "picName": "Apple MacBook 12 英寸笔记本电脑",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/14165!1446444243258.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11010",
+            "adUrl": "goodsId=11010",
+            "iosUrl": "goodsId=11010",
+            "picOrder": 4,
+            "price": 9288,
+            "payPrice": 9288
+        },
+        {
+            "picName": "联想（Lenovo）小新i2000 14英寸笔记本电脑 （i7-5500U 4G 500G+8G 集显 W8）白色",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/157471a59!1464248793909.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11649",
+            "adUrl": "goodsId=11649",
+            "iosUrl": "goodsId=11649",
+            "picOrder": 5,
+            "price": 3948,
+            "payPrice": 3948
+        },
+        {
+            "picName": "华硕ASUS）K401LB5200 4G/500G/GT9402G独/14.5.英寸高分屏 4G内存+500G全金属外壳",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/15746c82f!1464227759680.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11627",
+            "adUrl": "goodsId=11627",
+            "iosUrl": "goodsId=11627",
+            "picOrder": 6,
+            "price": 4000,
+            "payPrice": 4000
+        },
+       
+        {
+            "picName": "戴尔（DELL）M5555R-2828S 灵越15.6英寸游戏笔记本电脑（A8 4G 500G M355 2G独显）银",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/157458182!1464144130484.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11608",
+            "adUrl": "goodsId=11608",
+            "iosUrl": "goodsId=11608",
+            "picOrder": 6,
+            "price": 3799,
+            "payPrice": 3799
+        },
+        
+        {
+            "picName": "华硕(ASUS) E402MA3150 四核N3150 4G 500G 轻薄便携 14.1英寸笔记本电脑 红色",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/15745ad47!1464155335768.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11610",
+            "adUrl": "goodsId=11610",
+            "iosUrl": "goodsId=11610",
+            "picOrder": 6,
+            "price": 2599,
+            "payPrice": 2599
+        },
+         {
+            "picName": "戴尔（DELL）14UR-2108G 14英寸笔记本电脑 Cel3205U 4G内存 500G硬盘 DVDRW刻录 金色",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1574479d5!1464076629313.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11597",
+            "adUrl": "goodsId=11597",
+            "iosUrl": "goodsId=11597",
+            "picOrder": 6,
+            "price": 2799,
+            "payPrice": 2799
+        },
+        {
+            "picName": "联想（Lenovo）扬天商用Ideapad100S 11英寸笔记本电脑（Z3735F 2G 64G无光驱WIN10蓝色）",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/157481751!1464313553251.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11658",
+            "adUrl": "goodsId=11658",
+            "iosUrl": "goodsId=11658",
+            "picOrder": 6,
+            "price": 2100,
+            "payPrice": 2100
+        }
+        
+    ]
+}

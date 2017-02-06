@@ -1,0 +1,277 @@
+package com.mall.www4lt.navigation;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.mall.web.admin.common.utils.BaseAction;
+import com.mall.web.mall.common.annotation.MemberAuth;
+
+/**
+ * 
+ *官网导航 
+ */
+@Controller
+public class Www4ltNavController extends BaseAction {
+	private static Logger logger = Logger.getLogger(Www4ltNavController.class);
+	
+
+	/**
+	 * 网站首页
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("/index")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView index(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/main");
+		return mav;
+	}
+	/**
+	 * 活动中心列表
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("activity_list")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView activity_list(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/activity/list");
+		return mav;
+	}
+	/**
+	 * 活动中心内容
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("activity_con")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView activity_con(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/activity/content");
+		return mav;
+	}
+	/**
+	 * 公告列表
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("announ_list")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView announ_list(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/announ/list");
+		return mav;
+	}
+	/**
+	 * 公告列表
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("announ_con")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView announ_con(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/announ/content");
+		return mav;
+	}
+	/**
+	 * 下载
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("download")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView download(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/download/download");
+		return mav;
+	}
+	/**
+	 * 游戏资料
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("data")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView data(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/data/data");
+		return mav;
+	}
+	/**
+	 * 游戏操作
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("game_operation")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView game_operation(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/data/game_operation");
+		return mav;
+	}
+	/**
+	 * 新手指南
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("operation")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView operation(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/data/operation");
+		return mav;
+	}
+	/**
+	 * 防具
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("armor")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView armor(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/data/armor");
+		return mav;
+	}
+	/**
+	 * NPC
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("npc")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView npc(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/data/npc");
+		return mav;
+	}
+	/**
+	 * 武器
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("weapoin")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView weapoin(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/data/weapoin");
+		return mav;
+	}
+	/**
+	 * 饰品
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("jewelry")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView jewelry(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/data/jewelry");
+		return mav;
+	}
+	/**
+	 * 怪物
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("monster")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView monster(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/data/monster");
+		return mav;
+	}
+	/**
+	 * Boss
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("boss")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView boss(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/data/boss");
+		return mav;
+	}
+	
+	/**
+	 * 职业特点战士
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("occupation_zs")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView occupation_zs(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/data/occupation_zs");
+		return mav;
+	}
+	/**
+	 * 职业特点道士
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("occupation_ds")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView occupation_ds(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/data/occupation_ds");
+		return mav;
+	}
+	/**
+	 * 职业特点法师
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("occupation_fs")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView occupation_fs(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/data/occupation_fs");
+		return mav;
+	}
+	
+}

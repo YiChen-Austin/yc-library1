@@ -1,0 +1,256 @@
+@charset "utf-8";
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+    font:14px / 1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+
+}
+fieldset, img {
+    border: 0 none;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+    font-style: normal;
+    font-weight: normal;
+}
+li {
+    list-style: none outside none;
+}
+caption, th {
+    text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+q:before, q:after {
+    content: "";
+}
+abbr, acronym {
+    border: 0 none;
+    font-variant: normal;
+}
+sup {
+    vertical-align: text-top;
+}
+sub {
+    vertical-align: text-bottom;
+}
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+input, textarea, select {
+}
+legend {
+    color: #000000;
+}
+
+select, input, button, textarea {
+    font: 99% arial,helvetica,clean,sans-serif;
+}
+table {
+    font-size: inherit;
+}
+pre, code, kbd, samp, tt {
+    font-family: monospace;
+    line-height: 100%;
+}
+a {
+    text-decoration: none;
+    color:#666;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+strong {
+    font-weight: bold;
+}
+input[type="submit"] {
+    cursor: pointer;
+}
+button {
+    cursor: pointer
+}
+input,button,select,textarea{outline:none}
+textarea{resize:none}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+/*css*/
+body,html{
+    width: 100%;
+    background:url("../images/grid-bg.jpg");
+    position: relative;
+    min-height: 824px;
+}
+.logo{
+    text-align: center;
+    margin-top: 70px;
+}
+.logo p{
+    font-size: 30px;
+    color: #444444;
+    font-family: '微软雅黑 Regular';
+    font-weight: bold;
+}
+.lt-logindiv{
+    width: 320px;
+    padding: 30px 90px;
+    background: #fff;
+    position:absolute;
+    left:50%;
+    margin-left:-250px;
+    margin-top:100px;
+        margin-bottom: 164px;
+        display:block;
+    box-shadow: 0 0 35px 0 #c9c6c6;
+}
+.lt-logindiv h1{
+    font-size: 24px;
+    color: #55a9eb;
+    font-family: '宋体 Regular';
+    font-weight: bold;
+}
+.lt-logindiv input[name=userName],input[name=password]{
+    border: none;
+    border-left: 4px solid #55a9eb!important;
+    height: 42px;
+    margin-top: 10px;
+    width: 310px;
+    padding-left: 8px;
+    color:#a7a7a7 ;
+    background: #f9f9f9;
+    line-height: 42px;
+    border: 1px solid #f9f9f9;
+}
+.lt-logindiv input[name=code]{
+    border: none;
+    border-bottom: 1px solid #a7a7a7;
+    height: 30px;
+    margin-top: 10px;
+    width: 238px;
+    padding-left: 8px;
+    color:#a7a7a7 ;
+    line-height: 42px;
+    border: 1px solid #f9f9f9;
+}
+.form-group{
+    margin-bottom: 20px;
+    position: relative;
+}
+.lt-logindiv img{
+    margin-left: 23px;
+    width: 112px;
+    height: 40px;
+}
+.login_tj_btn{
+    margin-top: 10px;
+    width: 320px;
+    height: 44px;
+    border: none;
+    color: #fff;
+    background: #55a9eb;
+}
+.mzh {
+    border: 1px solid #c7c7c7!important;
+    color: #221e1f;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    width: 295px;
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.mzh a{
+    color: #55a9eb;
+}
+.dsf{
+    width: 100%;
+    display: block;
+    border-top: 1px solid #dddddd;
+    margin-top: 55px;
+    position: relative;
+}
+.dsf span{
+    width: 140px;
+    background: #fff;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    position: absolute;
+    left: 85px;
+    top: -10px;
+    text-align: center;
+    font-size: 16px;
+    color: #666666;
+    font-family: '微软雅黑 Regular';
+    font-weight: bold;
+}
+.dsf ul{
+    margin-top: 38px;
+}
+.dsf ul:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.dsf ul li{
+    width: 106px;
+    text-align: center;
+}
+.dsf ul li a{
+    width: 50px;
+    height: 50px;
+    margin-left: 28px;
+    display: block;
+    -webkit-transition: background-position .2s cubic-bezier(0.25,.5,.5,.9);
+    -moz-transition: background-position .2s cubic-bezier(0.25,.5,.5,.9);
+    -o-transition:background-position .2s cubic-bezier(0.25,.5,.5,.9);
+    transition: background-position .2s cubic-bezier(0.25,.5,.5,.9);
+}
+.dsf ul li .wx{
+    background: url("../images/wechat-login.png");
+}
+.dsf ul li .wb{
+    background: url("../images/weibo-login.png");
+}
+.dsf ul li .qq{
+    background: url("../images/qq-login.png");
+}
+.dsf ul li a:hover{
+    background-position: 0px 50px;
+}
+.footer {
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    padding: 24px 0;
+    font-size: 12px;
+    z-index: 999;
+    color: #666;
+    bottom: 0;
+    background: #e2e2e2;
+    margin: 0;
+    position: fixed;
+
+}
+.cy_box{
+    margin: 0;
+}
+.cy_box a {
+    color: #666;
+}

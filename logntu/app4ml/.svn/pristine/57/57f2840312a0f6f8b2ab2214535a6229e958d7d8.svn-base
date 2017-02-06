@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="head.jsp"%>
+<div class="main-left fl">
+	<div class="main-header">我的账户</div>
+	<div class="main-tou">
+		<img src="<%=path%>/images/head.png">
+		<p>Jackson</p>
+	</div>
+	<ul class="main-nav">
+		<a href="<%=project%>/main">
+			<li class="${param.tag=='main'?'active':''}"><i></i> 首 页</li>
+		</a>
+		<a href="<%=project%>/member/base">
+			<li class="${param.tag=='base'?'active':''}"><i></i> 个人资料</li>
+		</a>
+		<a href="<%=project%>/member/passwd">
+			<li class="${param.tag=='passwd'?'active':''}"><i></i> 账户修改</li>
+		</a>
+		<a href="<%=project%>/member/recharge">
+			<li class="${param.tag=='recharge'?'active':''}"><i></i> 账户龙币</li>
+		</a>
+		<a href="<%=project%>/member/client">
+			<li class="${param.tag=='client'?'active':''}"><i></i> 联系客服</li>
+		</a>
+		<a href="<%=project%>/member/feedback">
+			<li class="${param.tag=='feedback'?'active':''}"><i></i> 我要反馈</li>
+		</a>
+	</ul>
+</div>

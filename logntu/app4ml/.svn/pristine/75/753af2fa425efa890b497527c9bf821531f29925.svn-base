@@ -1,0 +1,138 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="../include/head.jsp"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>登陆</title>
+<link rel="icon" href="<%=path%>/images/logo/ml_ico.ico"
+	type="image/x-icon" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="<%=path%>/css/layer.css" rel="stylesheet"/>
+<link href="<%=path%>/css/login.css" rel="stylesheet" />
+</head>
+<body>
+	 <div class="logo">
+         <img src="<%=path%>/images/reg/logo.png">
+        <p>
+            漫浪游戏
+        </p>
+    </div>
+    <ul class="lt-logindiv">
+        <h1>
+            登录
+        </h1>
+        <li class="form-group">
+            <input type="text" name="username" placeholder="请输入邮箱、手机号码" id="number"/>
+        </li>
+        <li class="form-group">
+            <input type="password" name="password" placeholder="请输入密码" id="password"/>
+        </li>
+        <input type="button" name="login" class="login_tj_btn" value="登录"  onclick="toValidate()">
+        <div class="dl mzh">
+            没有账号
+            <a target="_blank" href="<%=project%>/reg">立即注册</a>
+        </div>
+        <div class="dsf">
+           <span>第三方登录</span>
+            <ul>
+                <li class="fl">
+                    <a href="" class="wx"></a>
+                </li>
+                <li class="fl">
+                    <a href="" class="wb"></a>
+                </li>
+                <li class="fl">
+                    <a href="" class="qq"></a>
+                </li>
+            </ul>
+        </div>
+    </ul>
+	<jsp:include page="../include/bottom.jsp" />
+</body>
+<script src="<%=path%>/js/jquery-1.9.1.min.js"></script>
+<script src="<%=path%>/js/layer.js"></script>
+<script src="<%=path%>/js/jquery.cxselect.js"></script>
+<script src="<%=path%>/js/reg/validate.js"></script>
+<script>
+        $("#number").blur(function(){
+            var val = new validate({
+                rules:{
+                    number:"number",
+                },
+                submitFun:function(){
+                    var user = {
+                        Tel:$("#number").val(),
+                    };
+                }
+            })
+        })
+        $("#password").blur(function(){
+            var val = new validate({
+                rules:{
+                    password:"password1",
+                },
+                submitFun:function(){
+                    var user = {
+                        Password:$("#password").val(),
+                    };
+                }
+            })
+        })
+        function toValidate(){
+            var val = new validate({
+                rules:{
+                    number:"number",
+                    password:"password1",
+                },
+                submitFun:function(){
+                    toSubmit();
+                }
+            })
+        }
+        function toSubmit(){
+            var user = {
+                Tel:$("#number").val(),
+                Password:$("#password").val(),
+            };
+            $.ajax({
+                url:'xxxx',
+                data:user,
+                type:'post',
+                dataType:'json',
+                success:function(msg){
+                    if(msg=='1'){
+                        layer.open({
+                            type: 1,
+                            area: ['250px', '150px'],
+                            shadeClose: false, //点击遮罩关闭
+                            content: '\<\div style="padding:20px;">登陆成功，3秒后自动跳转\<\/div>'
+                        });
+                        function jump(count) {
+                            console.log=Result;
+                            window.setTimeout(function(){
+                                count--;
+                                if(count > 0) {
+
+                                    jump(count);
+                                } else {
+                                    location.href="/";
+                                }
+                            }, 1000);
+                        }
+                        jump(3);
+                    }else{
+                        layer.open({
+                            type: 1,
+                            area: ['200px', '150px'],
+                            shadeClose: true, //点击遮罩关闭
+                            content: '\<\div style="padding:20px;">登陆失败 ！！！\<\/div>'
+                        });
+                    }
+                }
+            })
+        }
+
+    </script>
+</html>
+

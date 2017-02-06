@@ -1,0 +1,238 @@
+{
+    "serverId": "0",
+    "subLayer":3,
+    "subCate":"大区",
+    "subZones": [
+     {
+            "serverId": "100",
+            "serverName": "雄霸天下",
+            "subLayer":2,
+            "subCate":"小区",
+            "subZones": [
+             {
+                    "serverId": "100100",
+                    "serverName": "雄鸡一唱天下白100",
+                    "subLayer":1,
+                    "subCate":"服务器",
+                    "subZones":[
+                     {
+                             "serverId": "10010001",
+                             "serverName": "服务器11",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": 10010002,
+                             "serverName": "服务器12",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": 10010003,
+                             "serverName": "服务器13",
+                             "subLayer":0
+                     }
+                    ]
+             },
+             {
+                    "serverId": "100200",
+                    "serverName": "傲视东方群雄抖100",
+                    "subLayer":1,
+                    "subCate":"服务器",
+                    "subZones":[
+                     {
+                             "serverId": "10010001",
+                             "serverName": "服务器21",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "10010002",
+                             "serverName": "服务器22",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "10010003",
+                             "serverName": "服务器23",
+                             "subLayer":0
+                     }
+                    ]
+             },
+             {
+                    "serverId": "100200",
+                    "serverName": "一切只为打的赢",
+                    "subLayer":1,
+                    "subCate":"服务器",
+                    "subZones":[
+                     {
+                             "serverId": "1001000100",
+                             "serverName": "服务器31",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "10010002",
+                             "serverName": "服务器32",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "10010003",
+                             "serverName": "服务器33",
+                             "subLayer":0
+                     }
+                    ]
+             }
+            ]
+        },
+        {
+            "serverId": "200",
+            "serverName": "一草一世界",
+            "subLayer":2,
+            "subCate":"小区",
+            "subZones": [
+             {
+                    "serverId": "200100",
+                    "serverName": "雄鸡一唱天下白200",
+                    "subLayer":1,
+                    "subCate":"服务器",
+                    "subZones":[
+                     {
+                             "serverId": "20010001",
+                             "serverName": "服务器1",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "20010002",
+                             "serverName": "服务器2",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "20010003",
+                             "serverName": "服务器3",
+                             "subLayer":0
+                     }
+                    ]
+             },
+             {
+                    "serverId": "200200",
+                    "serverName": "傲视东方群雄抖200",
+                    "subLayer":1,
+                    "subCate":"服务器",
+                    "subZones":[
+                     {
+                             "serverId": "20020001",
+                             "serverName": "服务器1",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "20020002",
+                             "serverName": "服务器2",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "20020003",
+                             "serverName": "服务器3",
+                             "subLayer":0
+                     }
+                    ]
+             },
+             {
+                    "serverId": "200200",
+                    "serverName": "一切只为打的赢200",
+                    "subLayer":1,
+                    "subCate":"服务器",
+                    "subZones":[
+                     {
+                             "serverId": "20030001",
+                             "serverName": "服务器1",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "20030002",
+                             "serverName": "服务器2",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "20030003",
+                             "serverName": "服务器3",
+                             "subLayer":0
+                     }
+                    ]
+             }
+            ]
+        },
+        {
+            "serverId": "300",
+            "serverName": "光辉岁月",
+            "subLayer":2,
+            "subCate":"小区",
+            "subZones": [
+             {
+                    "serverId": "300100",
+                    "serverName": "雄鸡一唱天下白300",
+                    "subLayer":1,
+                    "subCate":"服务器",
+                    "subZones":[
+                     {
+                             "serverId": "30010001",
+                             "serverName": "服务器1",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "30010002",
+                             "serverName": "服务器2",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "10010003",
+                             "serverName": "服务器3",
+                             "subLayer":0
+                     }
+                    ]
+             },
+             {
+                    "serverId": "300200",
+                    "serverName": "傲视东方群雄抖300",
+                    "subLayer":1,
+                    "subCate":"服务器",
+                    "subZones":[
+                     {
+                             "serverId": "30020001",
+                             "serverName": "服务器1",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "30020002",
+                             "serverName": "服务器2",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "30020003",
+                             "serverName": "服务器3",
+                             "subLayer":0
+                     }
+                    ]
+             },
+             {
+                    "serverId": "300300",
+                    "serverName": "一切只为打的赢300",
+                    "subLayer":1,
+                    "subCate":"服务器",
+                    "subZones":[
+                     {
+                             "serverId": "30030001",
+                             "serverName": "服务器1",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "30030002",
+                             "serverName": "服务器2",
+                             "subLayer":0
+                     },                            
+                     {
+                             "serverId": "30030003",
+                             "serverName": "服务器3",
+                             "subLayer":0
+                     }
+                    ]
+             }
+            ]
+        }
+    ]
+}

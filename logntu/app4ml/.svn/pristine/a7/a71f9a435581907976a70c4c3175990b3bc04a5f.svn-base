@@ -1,0 +1,37 @@
+package com.mall.www4lt.navigation;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+import com.mall.web.admin.common.utils.BaseAction;
+import com.mall.web.mall.common.annotation.MemberAuth;
+
+/**
+ * 
+ *官网导航 
+ */
+@Controller
+public class Www4ltNavController extends BaseAction {
+	private static Logger logger = Logger.getLogger(Www4ltNavController.class);
+	
+
+	/**
+	 * 网站首页
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("/index")
+	@MemberAuth(verifyLogin = false)
+	public ModelAndView index(HttpServletRequest request, HttpServletResponse response, String service) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("www4lt/main");
+		return mav;
+	}
+}

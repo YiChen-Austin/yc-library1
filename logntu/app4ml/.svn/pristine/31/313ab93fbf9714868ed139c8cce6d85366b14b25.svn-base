@@ -1,0 +1,254 @@
+{
+    "serviceCode": 0,
+    "listTop": [
+        {
+            "picName": "大图",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1403a!shouji_r9.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11549",
+            "adUrl": "goodsId=11549",
+            "iosUrl": "goodsId=11549",
+            "picOrder": 0,
+            "price": 300,
+            "payPrice": 100
+        },
+        {
+            "picName": "热卖",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/14037!01shouji2.png",
+            "toType": 0,
+            "wapUrl": "/list?cateId=1512&brandId=20000:91621",
+            "adUrl": "cateId=1512&brandId=20000:91621",
+            "iosUrl": "cateId=1512&brandId=20000:91621",
+            "picOrder": 1,
+            "price": 400,
+            "payPrice": 200
+        },
+        {
+            "picName": "旗舰产品",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/14037!01shouji3.png",
+            "toType": 0,
+            "wapUrl": "/list?cateId=1512&brandId=20000:81156",
+            "adUrl": "cateId=1512&brandId=20000:81156",
+            "iosUrl": "cateId=1512&brandId=20000:81156",
+            "picOrder": 2,
+            "price": 0,
+            "payPrice": 100
+        },
+        {
+            "picName": "新品",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/14037!01shouji4.png",
+            "toType": 0,
+            "wapUrl": "/list?keyword=新品",
+            "adUrl": "keyword=新品",
+            "iosUrl": "keyword=新品",
+            "picOrder": 2,
+            "price": 0,
+            "payPrice": 100
+        },
+        {
+            "picName": "千元",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/14037!01shouji5.png",
+            "toType": 0,
+            "wapUrl": "/list?cateId=1512&sPayPrice=999&ePayPrice=1999",
+            "adUrl": "cateId=1512&sPayPrice=999&ePayPrice=1999",
+            "iosUrl":  "cateId=1512&sPayPrice=999&ePayPrice=1999",
+            "picOrder": 2,
+            "price": 0,
+            "payPrice": 100
+        }
+    ],
+    "listPro": [
+     {
+                    "picName": "魅族PRO 6 全网通公开版32G",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1576bb0dc!1466646620833.jpg_350x350.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11705",
+                    "adUrl": "goodsId=11705",
+                    "iosUrl": "goodsId=11705",
+                    "picOrder": 6,
+                    "price": 2499,
+                    "payPrice": 2499
+                }, 
+     {
+                    "picName": "Meizu/魅族 MX5公开版 智能大屏手机",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1571a12e3!1461297763348.jpg_350x350.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11125",
+                    "adUrl": "goodsId=11125",
+                    "iosUrl": "goodsId=11125",
+                    "picOrder": 6,
+                    "price": 1399,
+                    "payPrice": 1399
+                }, 
+     {
+                    "picName": "魅族 魅蓝3 全网通公开版 3",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1576bbfa9!1466650409281.jpg_350x350.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11707",
+                    "adUrl": "goodsId=11707",
+                    "iosUrl": "goodsId=11707",
+                    "picOrder": 6,
+                    "price": 969,
+                    "payPrice": 969
+                }, 
+                {
+                    "picName": "魅蓝note3 全网通公开版",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1576d1c70!1466739696106.jpg_350x350.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11707",
+                    "adUrl": "goodsId=11708",
+                    "iosUrl": "goodsId=11708",
+                    "picOrder": 6,
+                    "price": 1399,
+                    "payPrice": 1399
+                },
+     {
+                    "picName": "vivo X6SPlus 远航版本 全网通 4GB+128GB 全网通4G",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/15762c470!1466061808855.jpg_350x350.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11702",
+                    "adUrl": "goodsId=11702",
+                    "iosUrl": "goodsId=11702",
+                    "picOrder": 6,
+                    "price": 2998,
+                    "payPrice": 2998
+                },   
+                 {
+                    "picName": "vivo X6S 全网通版 双卡双待",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/15762c237!1466061239935.jpg_350x350.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11703",
+                    "adUrl": "goodsId=11703",
+                    "iosUrl": "goodsId=11703",
+                    "picOrder": 6,
+                    "price": 2598,
+                    "payPrice": 2598
+                },   
+                {
+            "picName": "金立手机S5 GN3001 [耀金]（全网通32G+4G）",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1576164c3!1465971779222.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11701",
+            "adUrl": "goodsId=11701",
+            "iosUrl": "goodsId=11701",
+            "picOrder": 0,
+            "price": 1698,
+            "payPrice": 1698
+        },
+        {
+            "picName": "金立手机S6 Pro GN9012[耀金]（全网通64G+4G）",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/157616036!1465970614091.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11700",
+            "adUrl": "goodsId=11700",
+            "iosUrl": "goodsId=11700",
+            "picOrder": 1,
+            "price": 1998,
+            "payPrice": 1998
+        },
+         {
+            "picName": "小米Max 全网通版",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1575d6a06!1465710982197.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11699",
+            "adUrl": "goodsId=11699",
+            "iosUrl": "goodsId=11699",
+            "picOrder": 1,
+            "price": 1889,
+            "payPrice": 1889
+        },
+         {
+            "picName": "OPPO A37 2GB+16GB内存版 金色 全网通4G手机 双卡双待",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/15756f7db!1465288539519.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11695",
+            "adUrl": "goodsId=11695",
+            "iosUrl": "goodsId=11695",
+            "picOrder": 1,
+            "price": 1375,
+            "payPrice": 1375
+        },
+        
+        {
+            "picName": "三星 Galaxy C5（C5000）32G版 枫叶金 全网通4G手机",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/15756eaaa!1465285162091.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11124",
+            "adUrl": "goodsId=11694",
+            "iosUrl": "goodsId=11694",
+            "picOrder": 1,
+            "price": 2199,
+            "payPrice": 2199
+        },
+        {
+            "picName": "华为 P9 plus 全网通",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/157595fed!1465446253643.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11697",
+            "adUrl": "goodsId=11697",
+            "iosUrl": "goodsId=11697",
+            "picOrder": 3,
+            "price": 3998,
+            "payPrice": 3998
+        },
+        
+        
+     
+       {
+            "picName": "vivo V3Max 双卡双待 全网通手机",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1572c7468!1462502376891.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11562",
+            "adUrl": "goodsId=11562",
+            "iosUrl": "goodsId=11562",
+            "picOrder": 6,
+            "price": 1798,
+            "payPrice": 1798
+        },
+       
+      
+        {
+            "picName": "HUAWEI G9 青春版 全网通版 16GB",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1572cd4ab!1462527019667.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11564",
+            "adUrl": "goodsId=11564",
+            "iosUrl": "goodsId=11564",
+            "picOrder": 6,
+            "price": 1599,
+            "payPrice": 1599
+        },
+        {
+            "picName": "vivo Y51A",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1567e4f5e!1451118430156.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11373",
+            "adUrl": "goodsId=11373",
+            "iosUrl": "goodsId=11373",
+            "picOrder": 4,
+            "price": 850,
+            "payPrice": 850
+        }
+        
+    ]
+}

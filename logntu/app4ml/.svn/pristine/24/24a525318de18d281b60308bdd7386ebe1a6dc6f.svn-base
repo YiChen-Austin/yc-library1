@@ -1,0 +1,182 @@
+package com.mall.web.mall.member.vo;
+
+import java.math.BigDecimal;
+import java.util.Date;
+
+import com.mall.web.pay.domain.PayRecord;
+
+
+
+/**
+ * @Description(描述) :资金变动记录表
+ * @author(作者) : chenhongxu
+ * @date (开发日期) : 2015年10月7日 上午10:00
+*/
+
+public class MemberPayRecordVo implements java.io.Serializable{
+	
+	private static final long serialVersionUID = 1L;
+	private Long recordId;		//记录编号
+	private String primaryId;		//支付主表编号
+	private int serviceType;	//业务类别
+	private long typeId;		//支付类别
+	private Long outUserId;		//支出方ID
+	private Long inUserId;		//收入方ID
+	private BigDecimal money;	//金额
+	private BigDecimal outBalance;	//支出方账户(余额)!
+	private BigDecimal inBalance;	//收入方账户(余额)
+	private BigDecimal point;		//消费积分
+	private int status;				//状态
+	private Date createTime;		//创建时间
+	private String description;		//描述
+	
+	
+	public static MemberPayRecordVo bean2Vo(PayRecord yzmPayRecord){
+		MemberPayRecordVo payRecord = new MemberPayRecordVo();
+		
+		payRecord.setRecordId(yzmPayRecord.getRecordId());
+		payRecord.setPrimaryId(yzmPayRecord.getPrimaryId());
+		payRecord.setServiceType(yzmPayRecord.getServiceType());
+		payRecord.setTypeId(yzmPayRecord.getTypeId());
+		payRecord.setOutUserId(yzmPayRecord.getOutUserId());
+		payRecord.setInUserId(yzmPayRecord.getInUserId());
+		payRecord.setMoney(yzmPayRecord.getMoney());
+		payRecord.setOutBalance(yzmPayRecord.getOutBalance());
+		payRecord.setInBalance(yzmPayRecord.getInBalance());
+		payRecord.setPoint(yzmPayRecord.getPoint());
+		payRecord.setStatus(yzmPayRecord.getStatus());
+		payRecord.setCreateTime(yzmPayRecord.getCreateTime());
+		payRecord.setDescription(yzmPayRecord.getDescription());
+		return payRecord;
+	}
+
+
+	public Long getRecordId() {
+		return recordId;
+	}
+
+
+	public void setRecordId(Long recordId) {
+		this.recordId = recordId;
+	}
+
+
+	public String getPrimaryId() {
+		return primaryId;
+	}
+
+
+	public void setPrimaryId(String primaryId) {
+		this.primaryId = primaryId;
+	}
+
+
+	public int getServiceType() {
+		return serviceType;
+	}
+
+
+	public void setServiceType(int serviceType) {
+		this.serviceType = serviceType;
+	}
+
+
+	public long getTypeId() {
+		return typeId;
+	}
+
+
+	public void setTypeId(long typeId) {
+		this.typeId = typeId;
+	}
+
+
+	public Long getOutUserId() {
+		return outUserId;
+	}
+
+
+	public void setOutUserId(Long outUserId) {
+		this.outUserId = outUserId;
+	}
+
+
+	public Long getInUserId() {
+		return inUserId;
+	}
+
+
+	public void setInUserId(Long inUserId) {
+		this.inUserId = inUserId;
+	}
+
+
+	public BigDecimal getMoney() {
+		return money;
+	}
+
+
+	public void setMoney(BigDecimal money) {
+		this.money = money;
+	}
+
+
+	public BigDecimal getOutBalance() {
+		return outBalance;
+	}
+
+
+	public void setOutBalance(BigDecimal outBalance) {
+		this.outBalance = outBalance;
+	}
+
+
+	public BigDecimal getInBalance() {
+		return inBalance;
+	}
+
+
+	public void setInBalance(BigDecimal inBalance) {
+		this.inBalance = inBalance;
+	}
+
+
+	public BigDecimal getPoint() {
+		return point;
+	}
+
+
+	public void setPoint(BigDecimal point) {
+		this.point = point;
+	}
+
+
+	public int getStatus() {
+		return status;
+	}
+
+
+	public void setStatus(int status) {
+		this.status = status;
+	}
+
+
+	public Date getCreateTime() {
+		return createTime;
+	}
+
+
+	public void setCreateTime(Date createTime) {
+		this.createTime = createTime;
+	}
+
+
+	public String getDescription() {
+		return description;
+	}
+
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
+}

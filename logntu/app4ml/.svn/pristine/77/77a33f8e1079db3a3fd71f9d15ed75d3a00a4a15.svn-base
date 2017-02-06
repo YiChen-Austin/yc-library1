@@ -1,0 +1,9 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="head.jsp"%>
+<div class="logo">
+        <img src="<%=path%>/img/logo.png">
+        <p>
+            漫浪游戏
+        </p>
+    </div>

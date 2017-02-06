@@ -1,0 +1,103 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="../include/head.jsp"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>公告列表</title>
+<link rel="icon" href="<%=path%>/images/logo/ml_ico.ico"
+	type="image/x-icon" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="Description" content="龙途" />
+<meta name="Keywords" content="漫浪游戏,通行证,密宝,SDO,SNDA,网络游戏,游戏充值，龙途，传奇" />
+<link href="<%=path%>/css/style.css" rel="stylesheet" />
+</head>
+<body>
+<jsp:include page="../include/top.jsp" >
+	<jsp:param name="tag" value="announ" />
+</jsp:include>
+<!-- Swiper -->
+<div class="announ-banner"></div>
+<div class="w1200 announ">
+    <a href="<%=project%>/announ_con" class="announ-div">
+        <div class="fl">
+            <img src="<%=path%>/img/announlist-img.jpg">
+        </div>
+        <div class="fl announ-divcom">
+            <span>传奇三大职业战力对比，成型后的战斗</span>
+            <label>发布时间：2016-10-28</label>
+            <p>
+                传奇经典的三大职业每个职业都有自己的特点，武士以优秀的攻击力和血量为自身的特色;法师则是优秀的远程攻击和持续伤
+                害;道士则是召唤宝宝以及辅助技能等。
+            </p>
+        </div>
+    </a>
+    <a href="<%=project%>/announ_con" class="announ-div">
+        <div class="fl">
+            <img src="<%=path%>/img/announlist-img.jpg">
+        </div>
+        <div class="fl announ-divcom">
+            <span>传奇三大职业战力对比，成型后的战斗</span>
+            <label>发布时间：2016-10-28</label>
+            <p>
+                传奇经典的三大职业每个职业都有自己的特点，武士以优秀的攻击力和血量为自身的特色;法师则是优秀的远程攻击和持续伤
+                害;道士则是召唤宝宝以及辅助技能等。
+            </p>
+        </div>
+    </a>
+    <a href="<%=project%>/announ_con" class="announ-div">
+        <div class="fl">
+            <img src="<%=path%>/img/announlist-img.jpg">
+        </div>
+        <div class="fl announ-divcom">
+            <span>传奇三大职业战力对比，成型后的战斗</span>
+            <label>发布时间：2016-10-28</label>
+            <p>
+                传奇经典的三大职业每个职业都有自己的特点，武士以优秀的攻击力和血量为自身的特色;法师则是优秀的远程攻击和持续伤
+                害;道士则是召唤宝宝以及辅助技能等。
+            </p>
+        </div>
+    </a>
+    <a href="<%=project%>/announ_con" class="announ-div">
+        <div class="fl">
+            <img src="<%=path%>/img/announlist-img.jpg">
+        </div>
+        <div class="fl announ-divcom">
+            <span>传奇三大职业战力对比，成型后的战斗</span>
+            <label>发布时间：2016-10-28</label>
+            <p>
+                传奇经典的三大职业每个职业都有自己的特点，武士以优秀的攻击力和血量为自身的特色;法师则是优秀的远程攻击和持续伤
+                害;道士则是召唤宝宝以及辅助技能等。
+            </p>
+        </div>
+    </a>
+
+    <div class="page">
+        <a href="" >
+            上一页
+        </a>
+        <a href="" class="active">
+            1
+        </a>
+        <a href="">
+         2
+        </a>
+        <span>
+            ....
+        </span>
+        <a href="">
+            10
+        </a>
+        <a href="">
+            11
+        </a>
+        <a href="">
+            下一页
+        </a>
+    </div>
+</div>
+<jsp:include page="../include/bottom.jsp" />
+</body>
+</html>
+

@@ -1,0 +1,100 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>全球狗支付-支付结果</title>
+<link rel="icon" href="http://misc.qqgo.cc/mall/themes/default/images/favicon.ico" rel="SHORTCUT ICON"/>
+<link rel="icon" href="http://misc.qqgo.cc/mall/themes/default/images/favicon.ico" rel="apple-touch-icon" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link rel="stylesheet" type="text/css" href="http://misc.qqgo.cc/pay/css/base.css" />
+<link rel="stylesheet" type="text/css"
+	href="http://misc.qqgo.cc/pay/css/purchase.base.201307.css" />
+<link rel="stylesheet" type="text/css"
+	href="http://misc.qqgo.cc/pay/css/purchase.cashier.css" />
+<script type="text/javascript" src="http://misc.qqgo.cc/pay/js/jquery-1.2.6.pack.js"></script>
+<script type="text/javascript" src="http://misc.qqgo.cc/pay/js/jTips.js"></script>
+<script type="text/javascript" src="http://misc.qqgo.cc/pay/js/payCommon.js"></script>
+</head>
+<body>
+	<script type="text/javascript" src="http://misc.qqgo.cc/pay/js/base-2011.js"
+		charset="gb2312"></script>
+	<div id="shortcut-2013">
+		<div class="w">
+			<ul class="fl lh">
+				<li class="fore1 ld"><b></b><a
+					href="javascript:x_addToFavorite()" rel="nofollow">收藏全球狗</a></li>
+			</ul>
+			<ul class="fr lh">
+				<li class="fore1" id="loginbar">您好！欢迎来到全球狗！</li>
+				<li class="fore2 ld"><s></s> <a
+					href="#" rel="nofollow">我的订单</a>
+				</li>
+			</ul>
+			<span class="clr"></span>
+		</div>
+	</div>
+	<!--shortcut end-->
+	<div class="w" id="p-header">
+		<div id="logo">
+			<a href="http://www.qqgo.cc/"> <img width="251" height="60"
+				alt="全球狗 收银台" src="http://misc.qqgo.cc/pay/images/logo/mall/yz_logo_s.jpg"></a>
+		</div>
+		<div class="stepflex">
+			<dl id="payStepFrist" class="first">
+				<dt class="s-num">1</dt>
+				<dd class="s-text">
+					选择支付方式<s></s> <b></b>
+				</dd>
+				<dd></dd>
+			</dl>
+			<dl id="payStepNormal" class="normal">
+				<dt class="s-num">2</dt>
+				<dd class="s-text">
+					核对支付信息<s></s> <b></b>
+				</dd>
+			</dl>
+			<dl id="payStepLast" class="last doing">
+				<dt class="s-num">3</dt>
+				<dd class="s-text">
+					支付结果信息<s></s> <b></b>
+				</dd>
+			</dl>
+		</div>
+		<div class="clr"></div>
+	</div>
+	<div class="w main">
+		<div class="o-mt">
+			<h2></h2>
+		</div>
+		<div class="m mtips">
+			<div class="mc">
+				<s class="icon-succ02"></s>
+				<div class="fore">
+					<h3 class="ftx-02">订单支付成功！我们将尽快安排为您发货！</h3>
+					<ul class="list-h">
+						<li class="fore1">订单号：${orderNo}</li>
+						<li class="fore3">已付金额：<strong class="ftx-01">${amount}元</strong></li>
+					</ul>
+					<p class="mb-tip">
+						全球狗提供 <s class="icon-bao"></s> <span class="ftx-05 f-bz">在线交易保障</span>请您放心购买。
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="w jdfooter">
+		<p>
+			完成支付后，您可以：<a id="orderItemUrl" target="_blank"
+				href="http://my.qqgo.cc/index.php?app=buyer_order">查看订单列表</a>
+		</p>
+	</div>
+	<!-- footer end -->
+	<script type="text/javascript" src="http://misc.qqgo.cc/pay/js/wl.js"></script>
+	<script type="text/javascript" src="http://misc.qqgo.cc/pay/js/lib-v1.js"></script>
+	<script type="text/javascript" src="http://misc.qqgo.cc/pay/js/jquery.cookie.js"></script>
+	<script type="text/javascript" charset="UTF-8"
+		src="http://misc.qqgo.cc/pay/js/pay-service.js"></script>
+</body>
+</html>
+

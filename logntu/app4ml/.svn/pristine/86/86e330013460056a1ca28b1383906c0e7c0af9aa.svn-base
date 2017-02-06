@@ -1,0 +1,311 @@
+package com.mall.web.mall.common.vo;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import net.sf.json.JSONArray;
+import net.sf.json.JSONObject;
+
+import org.apache.commons.io.FileUtils;
+import org.apache.log4j.Logger;
+import org.springframework.util.ResourceUtils;
+
+public class MobileJsonBean {
+	private static Logger logger = Logger.getLogger(MobileJsonBean.class);
+
+	/********************************/
+	public static String indexJson;
+	public static String indexJson_1201;
+	public static String indexJson_1201_01shouji;
+	public static String indexJson_1201_02diannao;
+	public static String indexJson_1201_03peijian;
+	public static String indexJson_1201_04yunyingshang;
+	public static String indexJson_1201_05fenqigou;
+	public static String indexJson_1201_06shenghuoguan;
+	public static String indexJson_found_1218;// 发现数据
+	public static String mobile_find; // 发现数据(好玩)
+	public static String mobile_find_hz; // 发现数据(好赚)
+	public static List<VideoBean> mobileFindList; // 发现数据
+	public static List<FindBeans2Hz> mobileFindList2Hz; // 发现数据(好赚)
+	public static String activity_1223_01;// 折扣
+	public static String activity_1223_02;// 秒杀
+	public static String activity_1223_03;// 众筹
+	public static String activity_1223_04;// 买赠
+
+	public static String activity_2016_01;// 新秒杀
+
+	/************* 手机wap *******************/
+	public static String wapCateJson;
+	/************* andorid *******************/
+	public static String andoridCateJson;
+	public static String problemAnswer;
+	public static String autoMsgJson = "";
+	public static String autoMsgJson4p = "";
+	public static String autoMsgJson4n = "";
+
+	private static Map<String, Long> modifyMap = null;
+	static {
+		modifyMap = new HashMap<String, Long>();
+		syncAutoMsg();
+	}
+
+	public static void syncAutoMsg() {
+		try {
+			long lastModified = 0;
+			File file = null;
+			String sign = "";
+
+			sign = "classpath:mall/messages/mobile_index.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				indexJson = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/mobile_index_1201.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				indexJson_1201 = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/mobile_index_1201_01shouji.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				indexJson_1201_01shouji = FileUtils.readFileToString(file,
+						"UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/mobile_index_1201_02diannao.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				indexJson_1201_02diannao = FileUtils.readFileToString(file,
+						"UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/mobile_index_1201_03peijian.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				indexJson_1201_03peijian = FileUtils.readFileToString(file,
+						"UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/mobile_index_1201_04yunyingshang.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				indexJson_1201_04yunyingshang = FileUtils.readFileToString(
+						file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/mobile_index_1201_05fenqigou.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				indexJson_1201_05fenqigou = FileUtils.readFileToString(file,
+						"UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/mobile_index_1201_06shenghuoguan.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				indexJson_1201_06shenghuoguan = FileUtils.readFileToString(
+						file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/mobile_found_1218.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				indexJson_found_1218 = FileUtils
+						.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/mobile_find.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				mobile_find = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+				// 解析
+				try {
+					JSONObject jsonobject = JSONObject.fromObject(mobile_find);
+					JSONArray array = jsonobject.getJSONArray("listVideo");
+					mobileFindList = new ArrayList<VideoBean>();
+					for (int i = 0; i < array.size(); i++) {
+						JSONObject object = (JSONObject) array.get(i);
+						VideoBean bean = (VideoBean) JSONObject.toBean(object,
+								VideoBean.class);
+						if (bean != null) {
+							mobileFindList.add(bean);
+						}
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+
+			sign = "classpath:mall/messages/mobile_find_hz.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				mobile_find_hz = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+				// 解析
+				try {
+					JSONObject jsonobject = JSONObject.fromObject(mobile_find_hz);
+					JSONArray array = jsonobject.getJSONArray("listData");
+					mobileFindList2Hz = new ArrayList<FindBeans2Hz>();
+					for (int i = 0; i < array.size(); i++) {						
+						JSONObject object = (JSONObject) array.get(i);
+						String blockName = object.getString("blockName");
+						FindBeans2Hz beans=new FindBeans2Hz();
+						beans.setBlockName(blockName);
+						beans.setBlock(new ArrayList<FindBean2Hz>());
+						mobileFindList2Hz.add(beans);
+						
+						JSONArray subArray = object.getJSONArray("block");
+						for (int j = 0; j < subArray.size(); j++) {
+							JSONObject subObject = (JSONObject) subArray.get(i);
+							FindBean2Hz bean = (FindBean2Hz) JSONObject.toBean(subObject, FindBean2Hz.class);
+							if (bean != null) {
+								beans.getBlock().add(bean);
+							}
+						}
+					}
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+
+			sign = "classpath:mall/messages/mobile_activity_1223_01.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				activity_1223_01 = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/mobile_activity_1223_02.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				activity_1223_02 = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/mobile_activity_1223_03.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				activity_1223_03 = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/mobile_activity_1223_04.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				activity_1223_04 = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			// 新加的
+			sign = "classpath:mall/messages/mobile_activity_2016_01.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				activity_2016_01 = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/mobile_cate.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				wapCateJson = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/android_cate.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				andoridCateJson = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/messages/problem_answer.json";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				problemAnswer = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/weixin/weixin_auto_msg.xml";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				autoMsgJson = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/weixin/weixin_auto_msg_p.xml";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				autoMsgJson4p = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+
+			sign = "classpath:mall/weixin/weixin_auto_msg_n.xml";
+			lastModified = modifyMap.get(sign) == null ? 0L : modifyMap
+					.get(sign);
+			file = ResourceUtils.getFile(sign);
+			if (file.lastModified() > lastModified) {
+				autoMsgJson4n = FileUtils.readFileToString(file, "UTF-8");
+				modifyMap.put(sign, file.lastModified());
+			}
+		} catch (Exception e) {
+			e.printStackTrace();
+			logger.warn(e);
+		}
+	}
+}

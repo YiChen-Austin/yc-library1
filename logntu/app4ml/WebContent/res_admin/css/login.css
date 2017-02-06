@@ -1,0 +1,90 @@
+@charset "utf-8";
+
+* {
+	font-family: "宋体", sans-serif;
+	font-size: 12px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+
+html,body {
+	height: 100%;
+}
+
+body {
+	text-align: center;
+	background: url(../images/login/bg.jpg) repeat-x #6197c6 top left;
+}
+
+#box {
+	margin: 0 auto;
+	height: 100%;
+	width: 100%;
+	background: url(../images/login/box.png) no-repeat top center;
+	text-align: center;
+}
+
+.boxBody {
+	position: absolute;
+	left: 50%;
+	margin-left: -454px;
+	width: 908px;
+	height: 25px;
+}
+
+#posts {
+	position: relative;
+	right: 0;
+	top: 270px;
+	height: 218px;
+	z-index: 1;
+}
+
+.loginipt {
+	width: 140px;
+	padding: 0 10px;
+	height: 20px;
+	line-height: 20px;
+	background: url(../images/login/ipt.gif) no-repeat top left;
+	border: none;
+}
+
+.loginipt1 {
+	width: 50px;
+	height: 20px;
+	padding: 0 10px;
+	line-height: 20px;
+	background: url(../images/login/ipt1.gif) no-repeat top left;
+	border: none;
+}
+
+.loginbox {
+	position: absolute;
+	top: 45px;
+	right: 20px;
+}
+
+.btnbar {
+	position: absolute;
+	top: 160px;
+	right: 20px;
+}
+
+.loginbtn {
+	width: 90px;
+	height: 25px;
+	display: block;
+	background: url(../images/login/loginbtn.jpg) no-repeat;
+	border: none;
+	cursor: hand;
+}
+
+.logincancel {
+	width: 90px;
+	height: 25px;
+	display: block;
+	background: url(../images/login/logincancel.jpg) no-repeat;
+	border: none;
+	cursor: hand;
+}

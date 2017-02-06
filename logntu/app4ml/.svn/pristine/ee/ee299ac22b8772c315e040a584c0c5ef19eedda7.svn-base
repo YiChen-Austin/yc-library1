@@ -1,0 +1,1242 @@
+{
+    "serviceCode": 0,
+    "listSlider": [
+    {
+            "picName": "vivo X7 全网通 4GB+64GB 移动联通电信4G手机 双卡双待 预",
+            "picUrl": "http://pic.qqgo.cc/A/1403a!zhuan_xixox7.png",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11713",
+            "adUrl": "goodsId=11713",
+            "iosUrl": "goodsId=11713",
+            "picOrder": 4
+        },
+		{
+            "picName": "新鲜水果 越南椰子冻 一个",
+            "picUrl": "http://pic.qqgo.cc/A/1403a!lunbo_dy.png",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11711",
+            "adUrl": "goodsId=11711",
+            "iosUrl": "goodsId=11711",
+            "picOrder": 4
+        },
+         {
+            "picName": "子爵",
+            "picUrl": "http://pic.qqgo.cc/A/1403b!luobo_hongjiu.png",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11486",
+            "adUrl": "goodsId=11486",
+            "iosUrl": "goodsId=11486",
+            "picOrder": 3
+        },
+        {
+            "picName": "龙井",
+            "picUrl": "http://pic.qqgo.cc/A/1403b!lunbo_longjiu.png",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11437",
+            "adUrl": "goodsId=11437",
+            "iosUrl": "goodsId=11437",
+            "picOrder": 4
+        }, 
+ {
+            "picName": "华硕",
+            "picUrl": "http://pic.qqgo.cc/A/1403b!lunbohuasuo1.png",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11045",
+            "adUrl": "goodsId=11045",
+            "iosUrl": "goodsId=11045",
+            "picOrder": 4
+        },		 		
+        {
+            "picName": "华为耳机",
+            "picUrl": "http://pic.qqgo.cc/A/1403b!lunbo_erji.png",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11329",
+            "adUrl": "goodsId=11329",
+            "iosUrl": "goodsId=11329",
+            "picOrder": 4
+        }
+        
+    ],
+    "listHot": [
+        {
+            "picName": "折扣专区页面",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1403a!huodong_saletop01_0422.jpg",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11558",
+            "adUrl": "goodsId=11558",
+            "iosUrl": "goodsId=11558",
+            "picOrder": 0,
+            "price": 300,
+            "payPrice": 100
+        },
+        {
+            "picName": "秒杀专区页面",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1403a!huodong_saletop02_0422.jpg",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11559",
+            "adUrl": "goodsId=11559",
+            "iosUrl": "goodsId=11559",
+            "picOrder": 1,
+            "price": 400,
+            "payPrice": 200
+        },
+        {
+            "picName": "众筹专区页面",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1403a!huodong_saletop03_0422.jpg",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11557",
+            "adUrl": "goodsId=11557",
+            "iosUrl": "goodsId=11557",
+            "picOrder": 2,
+            "price": 0,
+            "payPrice": 100
+        }
+    ],
+    "listPartition": [     
+         {
+            "picName": "新鲜水果 越南红心火龙果18/500g",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1403a!baokuan_jiapei.jpg",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11736",
+            "adUrl": "goodsId=11736",
+            "iosUrl": "goodsId=11736",
+            "picOrder": 1,
+            "price": 221,
+            "payPrice": 221
+        },
+        {
+            "picName": "金立s6 pro",
+            "picTag": "GT08 （锖色）",
+            "picUrl": "http://pic.qqgo.cc/A/1403a!baokuan_jinlijpg.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11700",
+            "adUrl": "goodsId=11700",
+            "iosUrl": "goodsId=11700",
+            "picOrder": 0,
+            "price": 300,
+            "payPrice": 100
+        },
+        {
+            "picName": "Samsung/三星 NP 500R5H-X02X0115.6英寸I5CPU超薄手提笔记本电脑",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1403a!baokuan_diannaosanxing.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11019",
+            "adUrl": "goodsId=11019",
+            "iosUrl": "goodsId=11019",
+            "picOrder": 1,
+            "price": 4549,
+            "payPrice": 4549
+        },
+        {
+            "picName": "上等御品韵香王 茶叶 铁观音 观音王 安溪铁观音 乌龙茶",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1403a!baokuan_cahye1.jpg",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11516",
+            "adUrl": "goodsId=11516",
+            "iosUrl": "goodsId=11516",
+            "picOrder": 1,
+            "price": 400,
+            "payPrice": 200
+        },
+        {
+            "picName": "国窖小酒礼盒|泸州老窖52度国窖1573浓香型白酒500ml",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1403a!baokuan_jiu01.jpg",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11517",
+            "adUrl": "goodsId=11517",
+            "iosUrl": "goodsId=11517",
+            "picOrder": 1,
+            "price": 680,
+            "payPrice": 680
+        },
+		{
+            "picName": "捷波朗",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1403a!baokuan_20160128jiebolang.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11338",
+            "adUrl": "goodsId=11338",
+            "iosUrl": "goodsId=11338",
+            "picOrder": 1,
+            "price": 400,
+            "payPrice": 200
+        }
+        
+    ],
+    "listStore": [],
+    "listActivity": [
+     {
+            "cateId": 1,
+            "cateName": "Apple专区",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "SE",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_se0706.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11542",
+                    "adUrl": "goodsId=11542",
+                    "iosUrl": "goodsId=11542",
+                    "picOrder": 0,
+                    "price": 3288,
+                    "payPrice": 3288
+                },
+                {
+                    "picName": "iPhone 6 Plus",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_6p0415.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=10880",
+                    "adUrl": "goodsId=10880",
+                    "iosUrl": "goodsId=10880",
+                    "picOrder": 1,
+                    "price": 5696,
+                    "payPrice": 5696
+                },
+                {
+                    "picName": "iPhone 6S",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_6s0415.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11539",
+                    "adUrl": "goodsId=11539",
+                    "iosUrl": "goodsId=11539",
+                    "picOrder": 3,
+                    "price": 5502,
+                    "payPrice": 5502
+                },
+                {
+                    "picName": "iPhone 6SPlus",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_6sp0415.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11460",
+                    "adUrl": "goodsId=11460",
+                    "iosUrl": "goodsId=11460",
+                    "picOrder": 4,
+                    "price": 6262,
+                    "payPrice": 6262
+                }
+            ]
+        },
+        {
+            "cateId": 1,
+            "cateName": "三星专区",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "s7Edge",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_s7.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11544",
+                    "adUrl": "goodsId=11544",
+                    "iosUrl": "goodsId=11544",
+                    "picOrder": 0,
+                    "price": 5888,
+                    "payPrice": 5888
+                },
+                {
+                    "picName": "三星 Galaxy A9",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_a90415.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11461",
+                    "adUrl": "goodsId=11461",
+                    "iosUrl": "goodsId=11461",
+                    "picOrder": 1,
+                    "price": 24383,
+                    "payPrice": 2383
+                },
+                {
+                    "picName": "三星 Galaxy S7",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_sums70415.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11543",
+                    "adUrl": "goodsId=11543",
+                    "iosUrl": "goodsId=11543",
+                    "picOrder": 3,
+                    "price": 3822,
+                    "payPrice": 3822
+                },
+                {
+                    "picName": "三星 Galaxy S6",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_sum92800415.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11555",
+                    "adUrl": "goodsId=11555",
+                    "iosUrl": "goodsId=11555",
+                    "picOrder": 4,
+                    "price": 2858,
+                    "payPrice": 2858
+                }
+            ]
+        },
+        {
+            "cateId": 1,
+            "cateName": "小米专区",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "小米5",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!2.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11699",
+                    "adUrl": "goodsId=11699",
+                    "iosUrl": "goodsId=11699",
+                    "picOrder": 0,
+                    "price": 1359,
+                    "payPrice": 1359
+                },
+                {
+                    "picName": "小米5 ",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_m5.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11547",
+                    "adUrl": "goodsId=11547",
+                    "iosUrl": "goodsId=11547",
+                    "picOrder": 1,
+                    "price": 2744,
+                    "payPrice": 2744
+                },
+                {
+                    "picName": "小米note3",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_hongminote30415.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11468",
+                    "adUrl": "goodsId=11468",
+                    "iosUrl": "goodsId=11468",
+                    "picOrder": 3,
+                    "price": 1083,
+                    "payPrice": 1083
+                },
+                {
+                    "picName": "小米4c全网通",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_4c0415.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11266",
+                    "adUrl": "goodsId=11266",
+                    "iosUrl": "goodsId=11266",
+                    "picOrder": 4,
+                    "price": 1231,
+                    "payPrice": 1231
+                }
+            ]
+        },
+        {
+            "cateId": 1,
+            "cateName": "华为专区",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "g9",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!3.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11564",
+                    "adUrl": "goodsId=11564",
+                    "iosUrl": "goodsId=11564",
+                    "picOrder": 0,
+                    "price": 3251,
+                    "payPrice": 2598
+                },
+                {
+                    "picName": "指纹识别荣耀7",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_20160414rongyao7.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11072",
+                    "adUrl": "goodsId=11072",
+                    "iosUrl": "goodsId=11072",
+                    "picOrder": 1,
+                    "price": 1699,
+                    "payPrice": 1699
+                },
+                {
+                    "picName": "p8高配版",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_huaweip8.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11518",
+                    "adUrl": "goodsId=11518",
+                    "iosUrl": "goodsId=11518",
+                    "picOrder": 3,
+                    "price": 2628,
+                    "payPrice": 2628
+                },
+                {
+                    "picName": "华为 MATE S",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_20160414mates.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11311",
+                    "adUrl": "goodsId=11311",
+                    "iosUrl": "goodsId=11311",
+                    "picOrder": 4,
+                    "price": 3699,
+                    "payPrice": 3699
+                }
+            ]
+        },
+        {
+            "cateId": 1,
+            "cateName": "oppo专区",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "R9",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_opr9.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11548",
+                    "adUrl": "goodsId=11548",
+                    "iosUrl": "goodsId=11548",
+                    "picOrder": 0,
+                    "price": 2799,
+                    "payPrice": 2799
+                },
+                {
+                    "picName": "R9plus6.0寸",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_r9plush.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11549",
+                    "adUrl": "goodsId=11549",
+                    "iosUrl": "goodsId=11549",
+                    "picOrder": 1,
+                    "price": 2849,
+                    "payPrice": 2849
+                },
+                {
+                    "picName": "A33全网通 ",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_a33.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11379",
+                    "adUrl": "goodsId=11379",
+                    "iosUrl": "goodsId=11379",
+                    "picOrder": 3,
+                    "price": 936,
+                    "payPrice": 936
+                },
+                {
+                    "picName": "A37全网通4G",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_oppoa37.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11695",
+                    "adUrl": "goodsId=11695",
+                    "iosUrl": "goodsId=11695",
+                    "picOrder": 4,
+                    "price": 1233,
+                    "payPrice": 1233
+                }
+            ]
+        },
+        {
+            "cateId": 2,
+            "cateName": "VIVO专区",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "vivo V3Max",
+                    "picTag": "vivo V3Max 双卡双待 全网通手机",
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!v3.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11562",
+                    "adUrl": "goodsId=11562",
+                    "iosUrl": "goodsId=11562",
+                    "picOrder": 0,
+                    "price": 2098,
+                    "payPrice": 1998
+                },
+				
+				 {
+                    "picName": "X6S plus 128G",
+                    "picTag": "X6SplusA 128G远航版",
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_x6plush.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11702",
+                    "adUrl": "goodsId=11702",
+                    "iosUrl": "goodsId=11702",
+                    "picOrder": 1,
+                    "price": 2845,
+                    "payPrice": 2845
+                },
+				{
+                    "picName": "Y51全网通4G",
+                    "picTag": "剩余3小时",
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_vivo_y51_03.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11373",
+                    "adUrl": "goodsId=11373",
+                    "iosUrl": "goodsId=11373",
+                    "picOrder": 4,
+                    "price": 850,
+                    "payPrice": 850
+                },
+               
+                {
+                    "picName": "vivo Xplay5A",
+                    "picTag": "剩余9小时",
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_xplay5.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11538",
+                    "adUrl": "goodsId=11538",
+                    "iosUrl": "goodsId=11538",
+                    "picOrder": 3,
+                    "price": 3515,
+                    "payPrice": 3515
+                }
+                
+            ]
+        },
+        {
+            "cateId": 2,
+            "cateName": "金立专区",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "金立 s6 pro",
+                    "picTag": "金立 s6 pro",
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_jinlis6pro.jpg",              
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11701",
+                    "adUrl": "goodsId=11701",
+                    "iosUrl": "goodsId=11701",
+                    "picOrder": 0,
+                    "price": 1698,
+                    "payPrice": 1698
+                },
+                {
+                    "picName": "金立金钢",
+                    "picTag": "剩余5小时",
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhaunqu_jingang.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11533",
+                    "adUrl": "goodsId=11533",
+                    "iosUrl": "goodsId=11533",
+                    "picOrder": 1,
+                    "price": 949,
+                    "payPrice": 949
+                },
+                {
+                    "picName": "金立S8 ",
+                    "picTag": "剩余9小时",
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_jinlis8.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11563",
+                    "adUrl": "goodsId=11563",
+                    "iosUrl": "goodsId=11563",
+                    "picOrder": 3,
+                    "price": 2566,
+                    "payPrice": 2566
+                },
+                {
+                    "picName": "m5plus指纹解锁",
+                    "picTag": "剩余3小时",
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_jinli_m5plus_03.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11376",
+                    "adUrl": "goodsId=11376",
+                    "iosUrl": "goodsId=11376",
+                    "picOrder": 4,
+                    "price": 2110,
+                    "payPrice": 2100
+                }
+            ]
+        },
+            	 {
+            "cateId": 4,
+            "cateName": "Ramos专区",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "Ramos",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_lanmor90705.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11529",
+                    "adUrl": "goodsId=11529",
+                    "iosUrl": "goodsId=11529",
+                    "picOrder": 0,
+                    "price": 1624,
+                    "payPrice": 1624
+                },
+                {
+                    "picName": "蓝魔 mos1 双4G ",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!Ramosmos1.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11531",
+                    "adUrl": "goodsId=11531",
+                    "iosUrl": "goodsId=11531",
+                    "picOrder": 1,
+                    "price": 1249,
+                    "payPrice": 1249
+                },
+                {
+                    "picName": "蓝魔 M7 八核",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!RamosM7.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11528",
+                    "adUrl": "goodsId=11528",
+                    "iosUrl": "goodsId=11528",
+                    "picOrder": 3,
+                    "price": 874,
+                    "payPrice": 874
+                },
+                {
+                    "picName": " MOS1 max ",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!MOS1-max.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11530",
+                    "adUrl": "goodsId=11530",
+                    "iosUrl": "goodsId=11530",
+                    "picOrder": 4,
+                    "price": 2249,
+                    "payPrice": 2249
+                }
+            ]
+        },
+			 {
+            "cateId": 4,
+            "cateName": "电脑专区",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "联想（Lenovo）G50-80",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_diannaolianxiang.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11660",
+                    "adUrl": "goodsId=11660",
+                    "iosUrl": "goodsId=11660",
+                    "picOrder": 0,
+                    "price": 3874,
+                    "payPrice": 3874
+                },
+                {
+                    "picName": "Apple MacBook ",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_pp.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11010",
+                    "adUrl": "goodsId=11010",
+                    "iosUrl": "goodsId=11010",
+                    "picOrder": 1,
+                    "price": 9288,
+                    "payPrice": 9288
+                },
+                {
+                    "picName": "华硕 500G 1G独显 ",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_diannaoxl.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11569",
+                    "adUrl": "goodsId=11569",
+                    "iosUrl": "goodsId=11569",
+                    "picOrder": 3,
+                    "price": 2956,
+                    "payPrice": 2956
+                },
+                {
+                    "picName": "戴尔(DELL)灵越",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_diannaodaier.png",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11589",
+                    "adUrl": "goodsId=11589",
+                    "iosUrl": "goodsId=11589",
+                    "picOrder": 4,
+                    "price": 3303,
+                    "payPrice": 3303
+                }
+            ]
+        },{
+            "cateId": 4,
+            "cateName": "鲜果专区",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "新鲜水果 泰国椰青 2个",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_yq.jpg",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11712",
+                    "adUrl": "goodsId=11712",
+                    "iosUrl": "goodsId=11712",
+                    "picOrder": 0,
+                    "price": 38,
+                    "payPrice": 38
+                },
+                {
+                    "picName": " 精品蓝莓 2盒 ",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_lammei.png",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11714",
+                    "adUrl": "goodsId=11714",
+                    "iosUrl": "goodsId=11714",
+                    "picOrder": 1,
+                    "price": 30,
+                    "payPrice": 30
+                },
+				{
+                    "picName": " 越南红心火龙果",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_huolongg.png",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11588",
+                    "adUrl": "goodsId=11588",
+                    "iosUrl": "goodsId=11588",
+                    "picOrder": 4,
+                    "price": 36,
+                    "payPrice": 36
+                },
+                {
+                    "picName": "澳大利亚甜橙5个",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_aocheng.png",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11737",
+                    "adUrl": "goodsId=11737",
+                    "iosUrl": "goodsId=11737",
+                    "picOrder": 3,
+                    "price": 35,
+                    "payPrice": 35
+                }
+                
+            ]
+			},
+			 {
+            "cateId": 4,
+            "cateName": "名酒专区",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "法国子爵银标干红葡萄酒原瓶原装进口AOC级专柜正品单支750ml促销",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_zijue1.jpg",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11507",
+                    "adUrl": "goodsId=11507",
+                    "iosUrl": "goodsId=11507",
+                    "picOrder": 0,
+                    "price": 546,
+                    "payPrice": 546
+                },
+                {
+                    "picName": "国窖小酒礼盒 ",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhaunqu_guojiao.png",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11517",
+                    "adUrl": "goodsId=11517",
+                    "iosUrl": "goodsId=11517",
+                    "picOrder": 1,
+                    "price":680,
+                    "payPrice": 680
+                },
+				{
+                    "picName": "53°飞天茅台",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_maotai.png",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11474",
+                    "adUrl": "goodsId=11474",
+                    "iosUrl": "goodsId=11474",
+                    "picOrder": 4,
+                    "price": 868,
+                    "payPrice": 868
+                },
+                {
+                    "picName": "52°五粮液",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_wulaingye.png",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11471",
+                    "adUrl": "goodsId=11471",
+                    "iosUrl": "goodsId=11471",
+                    "picOrder": 3,
+                    "price": 659,
+                    "payPrice": 659
+                }
+                
+            ]
+			},
+			{
+            "cateId": 4,
+            "cateName": "名茶专区",
+            "rgb": "#f5534a",
+            "listPro": [
+                {
+                    "picName": "特级大红袍礼盒装",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhaunqu_dahongpao.jpg",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11513",
+                    "adUrl": "goodsId=11513",
+                    "iosUrl": "goodsId=11513",
+                    "picOrder": 0,
+                    "price": 268,
+                    "payPrice": 268
+                },
+                {
+                    "picName": "西湖龙井",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_longjin.png",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11437",
+                    "adUrl": "goodsId=11437",
+                    "iosUrl": "goodsId=11437",
+                    "picOrder": 1,
+                    "price":368,
+                    "payPrice": 368
+                },
+                {
+                    "picName": "安溪铁观音",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhaunqu_tieguany.png",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11516",
+                    "adUrl": "goodsId=11516",
+                    "iosUrl": "goodsId=11516",
+                    "picOrder": 3,
+                    "price": 384,
+                    "payPrice": 384
+                },
+				
+				
+                {
+                    "picName": "重庆特产",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1403a!zhuanqu_chongqingtec.png",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11511",
+                    "adUrl": "goodsId=11511",
+                    "iosUrl": "goodsId=11511",
+                    "picOrder": 4,
+                    "price": 120,
+                    "payPrice": 120
+                }
+            ]
+			}
+    ],
+    "listProduct": [
+         {
+            "cateId": 1,
+            "cateName": "每日上新",
+            "subName": "全球狗新品推",
+            "rgb": "#f5534a",
+            "listPro": [
+            {
+                    "picName": "【新品特惠】澳大利亚甜橙5个",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/15790b9dc!1469073756982.jpg_350x350.jpg",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11736",
+                    "adUrl": "goodsId=11736",
+                    "iosUrl": "goodsId=11736",
+                    "picOrder": 6,
+                    "price": 35,
+                    "payPrice": 35
+                },
+            {
+                    "picName": "佳沛新西兰甜心绿果10个",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/15790aefa!1469070970444.jpg_350x350.jpg",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11736",
+                    "adUrl": "goodsId=11736",
+                    "iosUrl": "goodsId=11736",
+                    "picOrder": 6,
+                    "price": 69,
+                    "payPrice": 69
+                },
+            {
+                    "picName": "新鲜水果 泰国椰青 2个天然饮品 海岛风情",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/157768c7c!1467358204004.jpg_350x350.jpg",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11712",
+                    "adUrl": "goodsId=11712",
+                    "iosUrl": "goodsId=11712",
+                    "picOrder": 6,
+                    "price": 38,
+                    "payPrice": 38
+                },
+                {
+                    "picName": "新鲜水果 越南椰子冻 一个",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1577686ae!1467356718434.jpg_350x350.jpg",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11711",
+                    "adUrl": "goodsId=11711",
+                    "iosUrl": "goodsId=11711",
+                    "picOrder": 6,
+                    "price": 30,
+                    "payPrice": 30
+                },
+                {
+                    "picName": "新鲜水果 精品蓝莓 2盒 富含花青素 一口一颗嘎嘣脆",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1577a38c9!1467598921418.jpg_350x350.jpg",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11714",
+                    "adUrl": "goodsId=11714",
+                    "iosUrl": "goodsId=11714",
+                    "picOrder": 6,
+                    "price": 27,
+                    "payPrice": 27
+                },
+            
+            
+             {
+                    "picName": "美国加州车厘子1000g 殷红诱人 甜脆多汁 新鲜水果",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/156934e7a!1452494458088.png",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11612",
+                    "adUrl": "goodsId=11612",
+                    "iosUrl": "goodsId=11612",
+                    "picOrder": 6,
+                    "price": 138,
+                    "payPrice": 138
+                },
+                 {
+            "picName": "新鲜水果奇异果 金果-新西兰10个 低卡高纤 美颜瘦身防癌抗癌",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1574477ec!1464076140415.jpg",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11596",
+            "adUrl": "goodsId=11596",
+            "iosUrl": "goodsId=11596",
+            "picOrder": 0,
+            "price": 73,
+            "payPrice": 73
+        },
+          {
+                    "picName": "魅族PRO 6 全网通公开版32G",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1576bb0dc!1466646620833.jpg_350x350.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11705",
+                    "adUrl": "goodsId=11705",
+                    "iosUrl": "goodsId=11705",
+                    "picOrder": 6,
+                    "price": 2020,
+                    "payPrice": 2020
+                }, 
+     {
+                    "picName": "Meizu/魅族 MX5公开版 智能大屏手机",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1571a12e3!1461297763348.jpg_350x350.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11125",
+                    "adUrl": "goodsId=11125",
+                    "iosUrl": "goodsId=11125",
+                    "picOrder": 6,
+                    "price": 1399,
+                    "payPrice": 1399
+                }, 
+     {
+                    "picName": "魅族 魅蓝3 全网通公开版 3",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1576bbfa9!1466650409281.jpg_350x350.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11707",
+                    "adUrl": "goodsId=11707",
+                    "iosUrl": "goodsId=11707",
+                    "picOrder": 6,
+                    "price": 859,
+                    "payPrice": 859
+                }, 
+                {
+                    "picName": "魅蓝note3 32GB 全网通公开版",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1576d1c70!1466739696106.jpg_350x350.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11707",
+                    "adUrl": "goodsId=11708",
+                    "iosUrl": "goodsId=11708",
+                    "picOrder": 6,
+                    "price": 1183,
+                    "payPrice": 1183
+                },
+            {
+                    "picName": "vivo X6SPlus 远航版本 全网通 4GB+128GB",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/15762c470!1466061808855.jpg_350x350.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11702",
+                    "adUrl": "goodsId=11702",
+                    "iosUrl": "goodsId=11702",
+                    "picOrder": 6,
+                    "price": 2845,
+                    "payPrice": 2845
+                },   
+                 {
+                    "picName": "vivo X6S 全网通版 128GB 双卡双待",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/15762c237!1466061239935.jpg_350x350.jpg",
+                    "toType": 1,
+                    "wapUrl": "/goods/pdetail?goodsId=11703",
+                    "adUrl": "goodsId=11703",
+                    "iosUrl": "goodsId=11703",
+                    "picOrder": 6,
+                    "price": 2449,
+                    "payPrice": 2449
+                },   
+                {
+            "picName": "金立手机S5 GN3001 [耀金]（全网通32G+4G）",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1576164c3!1465971779222.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11701",
+            "adUrl": "goodsId=11701",
+            "iosUrl": "goodsId=11701",
+            "picOrder": 0,
+            "price": 1698,
+            "payPrice": 1698
+        },
+        {
+            "picName": "金立手机S6 Pro GN9012[耀金]（全网通64G+4G）",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/157616036!1465970614091.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11700",
+            "adUrl": "goodsId=11700",
+            "iosUrl": "goodsId=11700",
+            "picOrder": 1,
+            "price": 1932,
+            "payPrice": 1932
+        },
+         {
+            "picName": "小米Max 全网通版",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1575d6a06!1465710982197.jpg_350x350.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11699",
+            "adUrl": "goodsId=11699",
+            "iosUrl": "goodsId=11699",
+            "picOrder": 1,
+            "price": 1669,
+            "payPrice": 1669
+        },
+         {
+            "picName": "OPPO A37 2GB+16GB内存版 金色 全网通4G手机 双卡双待",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/15756f7db!1465288539519.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11695",
+            "adUrl": "goodsId=11695",
+            "iosUrl": "goodsId=11695",
+            "picOrder": 1,
+            "price": 1233,
+            "payPrice": 133
+        },
+        
+        {
+            "picName": "三星 Galaxy C5（C5000）32G版 枫叶金 全网通4G手机",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/15756eaaa!1465285162091.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11124",
+            "adUrl": "goodsId=11694",
+            "iosUrl": "goodsId=11694",
+            "picOrder": 1,
+            "price": 2131,
+            "payPrice": 2131
+        },
+        {
+            "picName": "华为 P9 plus 全网通",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/157595fed!1465446253643.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11697",
+            "adUrl": "goodsId=11697",
+            "iosUrl": "goodsId=11697",
+            "picOrder": 3,
+            "price": 3909,
+            "payPrice": 3909
+        },
+       {
+            "picName": "vivo V3Max 双卡双待 全网通手机",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1572c7468!1462502376891.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11562",
+            "adUrl": "goodsId=11562",
+            "iosUrl": "goodsId=11562",
+            "picOrder": 6,
+            "price": 1739,
+            "payPrice": 1739
+        },
+       
+      
+        {
+            "picName": "HUAWEI G9 青春版 全网通版 16GB",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1572cd4ab!1462527019667.jpg",
+            "toType": 1,
+            "wapUrl": "/goods/pdetail?goodsId=11564",
+            "adUrl": "goodsId=11564",
+            "iosUrl": "goodsId=11564",
+            "picOrder": 6,
+            "price": 1496,
+            "payPrice": 1496
+        },  
+        {
+            "picName": "美国红蛇果5个排毒养颜 增强 纤体 记忆力 ",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1574467fc!1464072060561.jpg",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11590",
+            "adUrl": "goodsId=11590",
+            "iosUrl": "goodsId=11590",
+            "picOrder": 0,
+            "price": 43,
+            "payPrice": 43
+        },         
+        {
+            "picName": "新鲜水果 越南红心火龙果36/1000g 清新兰香 清甜多汁",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/1574461fd!1464070525710.jpg_350x350.jpg",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11588",
+            "adUrl": "goodsId=11588",
+            "iosUrl": "goodsId=11588",
+            "picOrder": 0,
+            "price": 36,
+            "payPrice": 36
+        },      
+        {
+            "picName": "新鲜水果 越南白心火龙果500g 雪肤花貌俏佳人 柔嫩多汁 清甜爽口 ",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/157448ec3!1464081987871.jpg",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11603",
+            "adUrl": "goodsId=11603",
+            "iosUrl": "goodsId=11603",
+            "picOrder": 0,
+            "price": 8,
+            "payPrice": 8
+        },                 
+    {
+            "picName": "重庆特产 永川秀芽 茶叶绿茶2015新茶正宗正品 云岭 特级礼盒装",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/156b06fe0!1454403552665.jpg",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11512",
+            "adUrl": "goodsId=11512",
+            "iosUrl": "goodsId=11512",
+            "picOrder": 0,
+            "price": 168,
+            "payPrice": 168
+        },
+        {
+            "picName": "上等御品韵香王 茶叶 铁观音 观音王 安溪铁观音 乌龙茶",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/156b0e6e6!1454405222773.jpg",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11516",
+            "adUrl": "goodsId=11516",
+            "iosUrl": "goodsId=11516",
+            "picOrder": 0,
+            "price": 384,
+            "payPrice": 384
+        },
+    {
+                    "picName": "法国原瓶进口红酒 VDP级葡萄酒子爵花园桃红葡萄酒",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/156b024fe!1454384382002.jpg",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11492",
+                    "adUrl": "goodsId=11492",
+                    "iosUrl": "goodsId=11492",
+                    "picOrder": 6,
+                    "price": 219,
+                    "payPrice": 219
+                },                          
+                {
+                    "picName": "百年泸州老窖窖龄60年52度500mlx6整箱白酒",
+                    "picTag": null,
+                    "picUrl": "http://pic.qqgo.cc/A/1569328de!1452484830750.png",
+                    "toType": 4,
+                    "wapUrl": "/goods/pdetail?goodsId=11428",
+                    "adUrl": "goodsId=11428",
+                    "iosUrl": "goodsId=11428",
+                    "picOrder": 6,
+                    "price": 2468,
+                    "payPrice": 2268
+                },            
+         {
+            "picName": "进口红酒法国子爵格利贵族干红葡萄酒原瓶水果味 一支装",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/156b001d7!1454375383016.png",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11484",
+            "adUrl": "goodsId=11484",
+            "iosUrl": "goodsId=11484",
+            "picOrder": 0,
+            "price": 189,
+            "payPrice": 189
+        },
+        {
+            "picName": "法国红酒原装原瓶进口VDP级 佳品 法国子爵鹰干红酒750ml",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/156b00c1f!1454378015701.jpg",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11487",
+            "adUrl": "goodsId=11487",
+            "iosUrl": "goodsId=11487",
+            "picOrder": 0,
+            "price": 169,
+            "payPrice": 169
+        },      
+          {
+            "picName": "52°诗仙太白青花瓷500m",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/156af0017!1454309399768.png",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11481",
+            "adUrl": "goodsId=11481",
+            "iosUrl": "goodsId=11481",
+            "picOrder": 0,
+            "price": 369,
+            "payPrice": 369
+        },
+        {
+            "picName": "53°茅台飞天500ml",
+            "picTag": null,
+            "picUrl": "http://pic.qqgo.cc/A/156aef936!1454307638933.png",
+            "toType": 4,
+            "wapUrl": "/goods/pdetail?goodsId=11474",
+            "adUrl": "goodsId=11474",
+            "iosUrl": "goodsId=11474",
+            "picOrder": 0,
+            "price": 868,
+            "payPrice": 868
+        }
+       
+            ]
+        }
+    ]
+}

@@ -1,0 +1,138 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="../include/head.jsp"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>龙途在线充值</title>
+<link rel="icon" href="<%=path%>/images/logo/ml_ico.ico"
+	type="image/x-icon" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="<%=path%>/css/pay.css" rel="stylesheet" />
+<link href="<%=path%>/css/bootstrap.css" rel="stylesheet" />
+<link href="<%=path%>/css/layer.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="src" class='none'><%=project%></div>
+	<div class="header">
+		<div class="w1100 header-div">
+			<img src="<%=path%>/images/logo.png" class="fl"> <span
+				class="fl"> | 充值中心 </span>
+				<div class="fr header-zh">
+					<a href="" class="header-a">您好，Jackson</a> | <a href="">退出</a>
+				</div>
+				<div class="tab-tit fl">
+					<a href="<%=project%>/pay4nl" class="s active">龙途在线充值元宝</a> <a
+						href="<%=project%>/pay4l" class="s ">龙币账户充值</a>
+				</div>
+				<div class="grzx fr">
+					<a href="<%=project%>/main" class="s ">个人中心</a>
+				</div>
+		</div>
+	</div>
+	<div>
+		<div class="w1100 pay-com">
+			<div class="pay-comleft fl">
+				<h1>龙途在线简介</h1>
+				<span> 10元宝/1元 </span>
+				<p>《龙途》是有漫浪游戏倾力打造，采用 Unity引擎开发的一款大型多人在线角 色扮演游戏（MMORPG)网络游戏。它延
+					续了传奇系列的玩法与强PK特性，传承 了战法道的职业体系，保留了经典版本 的原汁原味，让玩家在激情中享受快感， 在热血中重温回忆。</p>
+				<div class="pay-bd">
+					<input name="checkbox" class="ty" type="checkbox" checked>我已阅读并同意
+					
+				</div>
+			</div>
+			<div class="pay-comright fl">
+				<div class="pay-div">
+					<div class="pay-bd">
+						<span class="fl"> 充值账号：</span> <input type="text"placeholder="输入账号" name="zh" value="" id="payid"onchange="payID()" class="fl num" /> 
+						<label id="payidlab"class="lab"><i></i><span></span></label>
+					</div>
+					<div class="pay-bd">
+						<span class="fl"> 充值账户：</span>
+						<div id="select_zone">
+						</div>
+					</div>
+					<div class="pay-bd jediv">
+						<span class="fl"> 充值数量：</span> <label class="active z czje"
+							value="1000" restnum="">1000</label> <label class="czje z"
+							value="4000" restnum="4000">4000</label> <label class="czje z"
+							value="5000" restnum="5000">5000</label> <input type="text"
+							placeholder="其他元宝" value="" class="je czje num" />
+						<p>金额10元，获得100龙币，至少100龙途币</p>
+					</div>
+					<div class="pay-bd zffs">
+						<span class="fl"> 支付方式：</span> <label class="active" restnum="">支付宝</label>
+						<label restnum="">微信</label> <label restnum="">银行卡</label>
+					</div>
+					<ul class="zffs-ul">
+						<li class="zffs-li">
+							<div class="pay-bd">
+								<span class="fl"> 应付金款：</span>
+								<div class="fl">
+									<span class="form-amount">100</span>元
+									<%-- <img src="<%=path%>/images/zfbewm.png">
+										<div>
+											<img src="<%=path%>/images/zfbzf.png">
+										</div> --%>
+								</div>
+							</div>
+							<div class="pay-bd">
+								<a href="javascript:void(0);" class="ljzf" onclick="alipay()">立即支付</a>
+							</div>
+						</li>
+						<li class="zffs-li">
+							<div class="pay-bd">
+								<span class="fl"></span>
+								<div class="fl">
+									<img src="<%=path%>/images/wxerm.png">
+										<div>
+											<img src="<%=path%>/images/wxzf.png">
+										</div>
+								</div>
+
+							</div> <!--<div class="pay-bd">
+                            <a href="" class="ljzf">立即支付</a>
+                        </div>-->
+						</li>
+						<li class="zffs-li lex">
+							<div class="pay-bd">
+								<span class="fl"> 选择银行卡类型：</span> <label class="active"
+									restnum="">储蓄卡</label>
+								<!--<label  restnum="">信用卡</label>-->
+							</div>
+							<div class="pay-bd xzyh">
+								<span class="fl"> 选择银行：</span>
+								<div style="margin-left: 131px;">
+									<label class="active gs" restnum=""><i></i>工商银行</label> <label
+										class="jt" restnum=""><i></i>交通银行</label> <label class="zg"
+										restnum=""><i></i>中国银行</label> <label class="gf" restnum=""><i></i>广发银行</label>
+									<label class="zx" restnum=""><i></i>中信银行</label> <label
+										class="gd" restnum=""><i></i>光大银行</label> <label class="pf"
+										restnum=""><i></i>浦发银行</label>
+								</div>
+							</div>
+							<div class="pay-bd">
+								<span class="fl"> 应付金款：</span>
+								<div class="fl">
+									<span class="form-amount">100</span>元
+								</div>
+							</div>
+							<div class="pay-bd">
+								<a href="" class="ljzf">立即支付</a>
+							</div>
+
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<jsp:include page="../include/bottom.jsp" />
+</body>
+<script src="<%=path%>/js/jquery-1.9.1.min.js"></script>
+<script src="<%=path%>/js/layer.js"></script>
+<script src="<%=path%>/js/jquery.cxselect.js"></script>
+<script src="<%=path%>/js/pay.js"></script>
+</html>
+

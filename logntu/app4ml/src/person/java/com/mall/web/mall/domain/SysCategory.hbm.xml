@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 2015-5-10 16:22:01 by Hibernate Tools 4.0.0 -->
+<hibernate-mapping>
+    <class name="com.mall.web.mall.domain.WebCategory" table="sys_category">
+        <id name="id" type="string">
+            <column name="id" />
+            <generator class="uuid" />
+        </id>
+        <many-to-one name="category" class="com.mall.web.mall.domain.WebCategory" fetch="select">
+            <column name="baseCategory_id" />
+        </many-to-one>
+        <property name="flag" type="string">
+            <column name="flag" length="1" not-null="true" />
+        </property>
+        <property name="internalCommand" type="string">
+            <column name="internalCommand" length="1" not-null="true" />
+        </property>
+        <property name="name" type="string">
+            <column name="name" not-null="true" unique="true" />
+        </property>
+        <property name="nodeImage" type="string">
+            <column name="nodeImage" />
+        </property>
+        <property name="orderNo" type="java.lang.Integer">
+            <column name="orderNo" />
+        </property>
+        <property name="pageUrl" type="string">
+            <column name="pageUrl" />
+        </property>
+        <property name="remark" type="string">
+            <column name="remark" length="4000" />
+        </property>
+        <set name="categories" table="sys_category" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="baseCategory_id" />
+            </key>
+            <one-to-many class="com.mall.web.mall.domain.WebCategory" />
+        </set>
+        <set name="categories_1" table="sys_category" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="baseCategory_id" />
+            </key>
+            <one-to-many class="com.mall.web.mall.domain.WebCategory" />
+        </set>
+        <set name="articles" table="sys_article" inverse="true" lazy="true" fetch="select">
+            <key>
+                <column name="category_id" />
+            </key>
+            <one-to-many class="com.mall.web.mall.domain.WebArticle" />
+        </set>
+    </class>
+</hibernate-mapping>

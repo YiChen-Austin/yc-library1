@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:util="http://www.springframework.org/schema/util" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans     
+        http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context-4.0.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx-4.0.xsd
+        http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+	<!-- 开启注解配置,使Spring关注Annotation -->
+	<context:annotation-config />
+	<!-- 让Spring通过自动扫描来查询和管理Bean -->
+	<context:component-scan
+		base-package="com.mall.web.admin,com.mall.www4lt,com.mall.web.mall,com.mall.web.common.dao,com.mall.web.mobile,com.mall.web.pay,com.mall.web.qr">
+	</context:component-scan>
+	<mvc:annotation-driven>
+		<mvc:message-converters register-defaults="false">
+			<bean id="mappingJackson2HttpMessageConverter"
+				class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+				<property name="supportedMediaTypes">
+					<list>
+						<!-- 这里顺序不能反，一定先写text/html,不然ie下出现下载提示 -->
+						<value>text/html;charset=UTF-8</value>
+						<value>application/json;charset=UTF-8</value>
+					</list>
+				</property>
+				<property name="objectMapper">
+					<bean class="com.fasterxml.jackson.databind.ObjectMapper">
+						<property name="dateFormat">
+							<bean class="java.text.SimpleDateFormat">
+								<constructor-arg type="java.lang.String" value="yyyy-MM-dd HH:mm:ss" />
+							</bean>
+						</property>
+					</bean>
+				</property>
+			</bean>
+		</mvc:message-converters>
+	</mvc:annotation-driven>
+	<!-- Configures Handler Interceptors -->
+	<mvc:interceptors>
+		<bean class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" />
+		<bean class="com.mall.web.mall.common.interceptor.PrivilegeInterceptor" />
+		<bean class="com.mall.web.mall.common.interceptor.TokenInterceptor" />
+	</mvc:interceptors>
+	<bean id="messageSource"
+		class="org.springframework.context.support.ReloadableResourceBundleMessageSource"
+		p:basenames-ref="basenames" p:fallbackToSystemLocale="false"
+		p:defaultEncoding="UTF-8" p:cacheSeconds="180"
+		p:useCodeAsDefaultMessage="true" />
+	<util:list id="basenames">
+		<value>classpath:custom_messages</value>
+		<value>classpath:messages_zh_CN</value>
+	</util:list>
+
+	<!-- Locale Resolver -->
+	<bean id="localeResolver"
+		class="org.springframework.web.servlet.i18n.CookieLocaleResolver"
+		p:defaultLocale="cn" />
+
+	<bean id="localeChangeInterceptor"
+		class="org.springframework.web.servlet.i18n.LocaleChangeInterceptor" />
+
+	<!-- 启动Spring MVC的注解功能，完成请求和注解POJO的映射 -->
+	<bean
+		class="org.springframework.web.servlet.mvc.annotation.AnnotationMethodHandlerAdapter" />
+	<import resource="classpath:admin/spring/spring-quartz.xml" />
+</beans>

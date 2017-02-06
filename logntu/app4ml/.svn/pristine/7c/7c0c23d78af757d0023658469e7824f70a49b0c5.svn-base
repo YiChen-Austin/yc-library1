@@ -1,0 +1,82 @@
+{
+    "serviceCode": 0,
+    "activityList": [
+        {
+            "title": "秒杀专区",
+            "imgUrl": "http://pic.qqgo.cc/A/1403b!huodong_shuiguo.png",
+            "startTime": "1453075920",
+            "endTime": "1453162320",
+            "smallTitle": "距离抢购开始还有",
+            "listPro": [
+            
+            
+                {
+                    "goodsName": "新鲜水果 泰国椰青 2个天然饮品 海岛风情",
+                    "imgUrl": "http://pic.qqgo.cc/A/157768c7c!1467358204004.jpg_350x350.jpg",
+                    "goodsId": 11711,
+                    "price": 39,
+                    "payPrice": 38,
+                    "descount": "9.7"
+                },
+               
+                
+                {
+                    "goodsName": "新鲜水果 越南椰子冻 一个",
+                    "imgUrl": "http://pic.qqgo.cc/A/1577686ae!1467356718434.jpg_350x350.jpg",
+                    "goodsId":11072 ,
+                    "price":  30,
+                    "payPrice":30,
+                    "descount": ""
+                },
+                {
+                    "goodsName": "新鲜水果 精品蓝莓 2盒 富含花青素 一口一颗嘎嘣脆",
+                    "imgUrl": "http://pic.qqgo.cc/A/1577a38c9!1467598921418.jpg_350x350.jpg",
+                    "goodsId": 11714,
+                    "price":30,
+                    "payPrice":27,
+                    "descount": "9"
+                },
+				{
+                    "goodsName": "美国加州车厘子1000g 殷红诱人 甜脆多汁 新鲜水果",
+                    "imgUrl": "http://pic.qqgo.cc/A/156934e7a!1452494458088.png",
+                    "goodsId": 11612,
+                    "price":160,
+                    "payPrice":138,
+                    "descount": "8.6"
+                },
+				 {
+                    "goodsName": "新鲜水果 泰国金枕头榴 绵软糯香 入口即化",
+                    "imgUrl": "http://pic.qqgo.cc/A/15774f320!1467253408093.jpg_350x350.jpg",
+                    "goodsId": 11710,
+                    "price":66,
+                    "payPrice":66,
+                   "descount": "8.6"
+                },
+               {
+                    "goodsName": "新鲜水果奇异果 金果-新西兰 6个 低卡高纤 美颜瘦身防癌抗癌",
+                    "imgUrl": "http://pic.qqgo.cc/A/1574477ec!1464076140415.jpg",
+                    "goodsId": 11596,
+                    "price":88,
+                    "payPrice":73,
+                    "descount": "8.2"
+                },
+				{
+                    "goodsName": "新鲜水果 越南红心火龙果18/500g 清新兰香 清甜多汁",
+                    "imgUrl": "http://pic.qqgo.cc/A/1574461fd!1464070525710.jpg_350x350.jpg",
+                    "goodsId": 11588,
+                    "price":18,
+                    "payPrice":18,
+                    "descount": ""
+                },
+               {
+                    "goodsName": "新鲜水果 海南荔枝王 一件/3000g",
+                    "imgUrl": "http://pic.qqgo.cc/A/1576d5f0e!1466756750401.jpg_350x350.jpg",
+                    "goodsId": 11709,
+                    "price":230,
+                    "payPrice":221,
+                    "descount": "9.6"
+                }
+            ]
+        }
+    ]
+}

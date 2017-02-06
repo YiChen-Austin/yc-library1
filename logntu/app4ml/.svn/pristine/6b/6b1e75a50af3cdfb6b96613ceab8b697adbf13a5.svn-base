@@ -1,0 +1,55 @@
+{
+    "serviceCode": 0,
+    "activityList": [
+        {
+            "title": "折扣专区",
+            "imgUrl": "http://pic.qqgo.cc/A/1403a!shouji_re.jpg",
+            "startTime": "1453075920",
+            "endTime": "1453162320",
+            "smallTitle": "距离抢购开始还有",
+            "listPro": [
+                {
+                    "goodsName": "法国原瓶原装进口红酒 法国子爵小蓝标干红葡萄酒",
+                    "imgUrl": "http://pic.qqgo.cc/A/156b05744!1454397252163.jpg",
+                    "goodsId": 11498,
+                    "price": 198,
+                    "payPrice": 99,
+                    "descount":"5折"
+                },{
+                    "goodsName": "Samsung/三星 GALAXY Note4 SM-N9108V移动手机SM-N9109w电信手机",
+                    "imgUrl": "http://pic.qqgo.cc/A/14168!1446704147823.png",
+                    "goodsId": 11123,
+                    "price": 5288,
+                    "payPrice": 2299,
+                    "descount":"5折"
+                },
+                {
+                    "goodsName": "Find7标准版 移动4G手机 白色 (x9007)X9007",
+                    "imgUrl": "http://pic.qqgo.cc/A/1567e4b91!1451117457482.jpg",
+                    "goodsId": 11371,
+                    "price": 2199,
+                    "payPrice":1899,
+                    "descount": "8折"
+                },
+                {
+                    "goodsName": "OPPO x9077Find7标准版",
+                    "imgUrl": "http://pic.qqgo.cc/A/1567e4d96!1451117974028.jpg",
+                    "goodsId": 11372,
+                    "price":2699,
+                    "payPrice": 2099,
+                    "descount": "7折"
+                },                              
+                {
+                    "goodsName": "唯诺尔品牌贴膜，简约 时尚 品味",
+                    "imgUrl": "http://pic.qqgo.cc/A/1568a372a!1451898666442.png",
+                    "goodsId": 11413,
+                    "price": 188,
+                    "payPrice": 94,
+                    "descount": "5折"
+                }
+                
+               
+            ]
+        }
+    ]
+}

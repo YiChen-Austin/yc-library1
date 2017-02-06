@@ -1,0 +1,53 @@
+html{ height:100%; }
+body, ul, li, p, h1,h2,h3,h4,h5,h6,h7,form { vertical-align: baseline;border:0; margin:0; padding:0; list-style:none; font: 12px tahoma;list-style:none;}
+body { background:#fff; height:100%;}
+a, a:link, a:visited { color: #35598f; text-decoration: none; font-family:'宋体' }
+a:hover, a:active { color: #4973AE; text-decoration: underline; }
+a,img { border: 0; }
+/*
+ * 框架顶部图片样式信息
+ */
+body.top { background: url(../images/topbg2.png) repeat-x 0 0;}
+body.top .topbg{ background:url(../images/topbg.png) no-repeat 0 0; height:32px; padding:26px 0 0 160px;}
+body.top .topbg span {font-size:12px; font-family:tahoma; position:relative; text-align:center; background:url(../images/taba-left.png) no-repeat; display:block; height:29px; float:left; line-height:33px; overflow:hidden; margin:0 -25px 0 0; z-index:0; padding:0 0 0 21px;}
+body.top .topbg span a {background:url(../images/taba-right.png) no-repeat right 0; padding:0 28px 0 7px ; height:29px; display:block; float:left; text-decoration:none; color:#52575c;}
+body.top .topbg span.selected {z-index:1; background:url(../images/tabb-left.png) no-repeat;}
+body.top .topbg span.selected a {background:url(../images/tabb-right.png) no-repeat right 0; color:#000;}
+body.top .topbg .login-info { margin:5px 10px 0;}
+/*
+ * 菜单标题描述
+ */
+.leftHeader { background:url(../images/columnbg.png) no-repeat; height:28px; line-height:28px; cursor:pointer; padding:0 0 0 30px; overflow:hidden; color:#fff; font-weight:bold; font-size:14px;}
+.leftHeader .uldiv { clear:both; display:none; visibility:visible; }
+.leftHeader .uldiv:after {display: block; height: 0px; visibility: hidden; clear: both; content: "."}
+.leftHeader .uldiv {zoom: 1}
+/*
+ * 菜单背景图片
+ */
+.leftContent { border: 1px solid #a6c9e2;border-top:thin; background:url(../images/leftbg.png) repeat 0 0; overflow-y:no;overflow-x:no;}
+/*
+ * 工作区top描述
+ */
+.rightHeader { background:url(../images/righttopbg2.png) no-repeat right 0; height:27px;}
+.rightHeader .text { height:27px; color:#696969; line-height:27px; overflow:hidden;}
+
+/*
+ * index 相关样式
+ */
+.wrapper {margin-left: 1%;}
+.topMenu{ height:34px; margin-top:6px; FONT-FAMILY: "宋体"; }
+/*
+.left {FLOAT: left;margin: 0px;padding: 0px}
+.main {FLOAT: left; MARGIN-LEFT: 0px; }*/
+.mainHeader{PADDING-LEFT: 6px}
+.foot { COLOR: #6e6e6e }
+.foot A { COLOR: #6e6e6e }
+.foot P { TEXT-ALIGN: center; LINE-HEIGHT: 22px; FONT-FAMILY: Arial, Helvetica, sans-serif }
+.clear {CLEAR: both}
+.optBar{cursor: pointer;margin-left: 0px}
+.exitLogin{position:absolute;cursor: pointer;right: 4em; height:27px;line-height:27px; overflow:hidden;}
+.loginMessage{position:absolute;cursor: pointer;right: 9em; height:27px;line-height:27px; overflow:hidden;}
+#wrap{margin:0 auto;}
+#left {float:left;margin-right:-200px;width:168px;}
+.mainTemp1 {width:auto;margin:0 0 0 168px;}
+.mainTemp2 {width:auto;margin:0px;}

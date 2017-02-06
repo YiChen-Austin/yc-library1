@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+  http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+	<!-- 启动触发器的配置开始 -->
+	<bean name="startQuertz" lazy-init="false" autowire="no"
+		class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="triggers">
+			<list>
+				<ref bean="myJobTrigger" />
+				<ref bean="order20JobTrigger" />
+				<ref bean="order40JobTrigger" />
+				<ref bean="orderThirdJobTrigger" />
+				<ref bean="dayJobTrigger" />
+			</list>
+		</property>
+	</bean>
+	<!-- 启动触发器的配置结束 -->
+
+	<!-- 调度的配置开始 -->
+	<!-- quartz-2.x的配置 -->
+	<bean id="myJobTrigger"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail">
+			<ref bean="myJobDetail" />
+		</property>
+		<property name="cronExpression">
+			<value>0 0/5 * * * ?</value>
+		</property>
+	</bean>
+	<bean id="order20JobTrigger"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail">
+			<ref bean="order20SuccJobDetail" />
+		</property>
+		<property name="cronExpression">
+			<value>*/6 * * * * ?</value>
+		</property>
+	</bean>
+	<bean id="order40JobTrigger"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail">
+			<ref bean="order40SuccJobDetail" />
+		</property>
+		<property name="cronExpression">
+			<value>* */5 * * * ?</value>
+		</property>
+	</bean>
+	<bean id="orderThirdJobTrigger"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail">
+			<ref bean="orderThirdSuccJobDetail" />
+		</property>
+		<property name="cronExpression">
+			<value>* */1 * * * ?</value>
+		</property>
+	</bean>
+	<bean id="dayJobTrigger"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail">
+			<ref bean="dayJobDetail" />
+		</property>
+		<property name="cronExpression">
+			<value>0 0 3 * * ?</value>
+		</property>
+	</bean>
+	<!-- 调度的配置结束 -->
+
+	<!-- job的配置开始 -->
+	<bean id="myJobDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="esTaskSyncWorker" />
+		</property>
+		<property name="targetMethod">
+			<value>syncEsTasks</value>
+		</property>
+	</bean>
+	<!-- 支付成功后处理 -->
+	<bean id="order20SuccJobDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="order20SuccWorker" />
+		</property>
+		<property name="targetMethod">
+			<value>syncTasks</value>
+		</property>
+		<property name="concurrent" value="false" />
+	</bean>
+	<!-- 支付成功后处理 -->
+	<bean id="order40SuccJobDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="order40SuccWorker" />
+		</property>
+		<property name="targetMethod">
+			<value>syncTasks</value>
+		</property>
+		<property name="concurrent" value="false" />
+	</bean>
+	<!--日同步处理 -->
+	<bean id="dayJobDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="dayWorker" />
+		</property>
+		<property name="targetMethod">
+			<value>syncTasks</value>
+		</property>
+		<property name="concurrent" value="false" />
+	</bean>
+	<!-- 第三方接口配合处理-->
+	<bean id="orderThirdSuccJobDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject">
+			<ref bean="orderThirdSuccWorker" />
+		</property>
+		<property name="targetMethod">
+			<value>syncTasks</value>
+		</property>
+		<property name="concurrent" value="false" />
+	</bean>
+	<!-- job的配置结束 -->
+	<!-- 工作的bean -->
+	<!--<bean id="esTaskSyncJob" class="com.mall.web.mall.elasticsearch.sync;" />-->
+</beans>

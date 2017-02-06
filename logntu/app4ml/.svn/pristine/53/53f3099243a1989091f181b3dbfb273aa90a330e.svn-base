@@ -1,0 +1,43 @@
+package com.mall.web.mall.pay.controller;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import org.apache.log4j.Logger;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+public class PersonPayController {
+	private static Logger logger = Logger.getLogger(PersonPayController.class);
+
+	/**
+	 * 游戏支付界面（无需登录）
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("/pay4nl")
+	public ModelAndView pay4nl(HttpServletRequest request, HttpServletResponse response, String returnUrl) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("person/pay/pay4nl");
+		return mav;
+	}
+
+	/**
+	 * 龙币支付界面（须登录）
+	 * 
+	 * @param request
+	 * @param response
+	 * @return
+	 */
+	@RequestMapping("/pay4l")
+	public ModelAndView pay4l(HttpServletRequest request, HttpServletResponse response, String returnUrl) {
+		ModelAndView mav = new ModelAndView();
+		mav.setViewName("person/pay/pay4l");
+		return mav;
+	}
+
+}

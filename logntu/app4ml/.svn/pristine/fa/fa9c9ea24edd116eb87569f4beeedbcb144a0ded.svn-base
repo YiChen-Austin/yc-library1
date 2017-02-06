@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="../include/head.jsp"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>emailSucc</title>
+<link rel="icon" href="<%=path%>/images/logo/ml_ico.ico"
+type="image/x-icon" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="<%=path%>/css/style.css" rel="stylesheet" />
+</head>
+<body>
+	<div class="header">
+		<div class="w1100 header-div">
+			<img src="<%=path%>/images/logo.png" class="fl">
+			<div class="fr dh">
+				<i class="fl"></i>023-63110535
+			</div>	
+		</div>
+	</div>
+    <div class=" w800 center">
+      	<img class="fl" src="<%=path%>/images/yzcg.png" />
+      	<span class="fl yzfspan">验证邮件已发送</span>
+       <div class="yzfsdiv">
+      		<p>验证邮件已经发送至您的邮箱，点击邮件中的链接完成操作。</p>
+      		<p>验证邮件24小时内有效，请尽快验证！</p>
+       </div>
+       <a href="" class="jryx">立即进入邮箱</a>
+    </div>
+  
+</body>
+</html>
+

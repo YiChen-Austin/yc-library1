@@ -1,0 +1,456 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="../include/head.jsp"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title><%=projectTitle%></title>
+<link rel="icon" href="<%=path%>/images/logo/ml_ico.ico"
+	type="image/x-icon" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="<%=path%>/css/style.css" rel="stylesheet" />
+<link href="<%=path%>/css/bootstrap.css" rel="stylesheet" />
+</head>
+<body>
+	<jsp:include page="../include/top.jsp" />
+	<div class="w1100 mtb20 color999">
+		您当前的位置：首页 > 个人中心 > 充值消费
+	</div>
+	<div class="main w1100">
+		<jsp:include page="../include/left.jsp" >
+			<jsp:param name="tag" value="recharge" />
+		</jsp:include>
+		<div class="main-con fl">
+			<div class="pay-div tudj">
+				龙币：<span class="djs" id="balance"></span>点
+				<div class="dj-div">
+					温馨提示：
+					<p>1、龙币支持大部分游戏内直接使用或兑换游戏专用货币使用；</p>
+					<p>2、余额查询结果仅为参考，请以游戏内实际显示余额为准。</p>
+				</div>
+			</div>
+			<ul class="pay-top">
+				<li class="fl active">消费记录</li>
+				<li class="fl">充值记录</li>
+			</ul>
+			<div>
+				<div class="pay-div pay-s">
+					<div class="jl">
+						<label class="active">今天</label> <label>最近1周</label> <label>1个月</label>
+						<label>3个月</label>
+					</div>
+					<div>
+						<div class="bd">
+							<table class="table table-striped tab-border">
+								<thead>
+									<tr>
+										<th>时间</th>
+										<th>数量</th>
+										<th>金额</th>
+										<th>状态</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="bd" style="display: none;">
+							<table class="table table-striped tab-border">
+								<thead>
+									<tr>
+										<th>时间</th>
+										<th>数量</th>
+										<th>金额</th>
+										<th>状态</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="bd" style="display: none;">
+							<table class="table table-striped tab-border">
+								<thead>
+									<tr>
+										<th>时间</th>
+										<th>数量</th>
+										<th>金额</th>
+										<th>状态</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="bd" style="display: none;">
+							<table class="table table-striped tab-border">
+								<thead>
+									<tr>
+										<th>时间</th>
+										<th>数量</th>
+										<th>金额</th>
+										<th>状态</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+				<div class="pay-div pay-s" style="display: none;">
+					<div class="jl jl1">
+						<label class="active">今天</label> <label>最近1周</label> <label>1个月</label>
+						<label>3个月</label>
+					</div>
+					<div>
+						<div class="bd1">
+							<table class="table table-striped tab-border">
+								<thead>
+									<tr>
+										<th>时间</th>
+										<th>数量</th>
+										<th>金额</th>
+										<th>状态</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+
+								</tbody>
+							</table>
+						</div>
+						<div class="bd1" style="display: none;">
+							<table class="table table-striped tab-border">
+								<thead>
+									<tr>
+										<th>时间</th>
+										<th>数量</th>
+										<th>金额</th>
+										<th>状态</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="bd1" style="display: none;">
+							<table class="table table-striped tab-border">
+								<thead>
+									<tr>
+										<th>时间</th>
+										<th>数量</th>
+										<th>金额</th>
+										<th>状态</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="bd1" style="display: none;">
+							<table class="table table-striped tab-border">
+								<thead>
+									<tr>
+										<th>时间</th>
+										<th>数量</th>
+										<th>金额</th>
+										<th>状态</th>
+										<th></th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+									<tr>
+										<td>2016-08-22 09:42:06</td>
+										<td>1000点龙币</td>
+										<td>10.00元</td>
+										<td>支付成功</td>
+										<td><a href="javascript:void(0);" class="xq"
+											onclick="xiangqing()">详情</a></td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<jsp:include page="../include/bottom.jsp" />
+</body>
+<script src="<%=path%>/js/jquery-1.9.1.min.js"></script>
+<script src="<%=path%>/js/validate.js"></script>
+<script src="<%=path%>/js/layer.js"></script>
+<script>
+$(function(){ 
+    $.ajax({
+        url:'<%=project%>/pay/checkBalance',
+        type: 'post',
+        dataType: 'json',
+        success: function (json) {
+        	var balance = json.desposit.balance;
+        	$('#balance').append(balance);
+        }
+    })
+})
+var stb6=$('.jl label');
+stb6.click(function(){
+    $(this).addClass('active')
+            .siblings().removeClass('active');
+})
+$('.pay-s:gt(0)').hide();//隐藏大于0
+var stb1=$('.pay-top li');
+stb1.click(function(){
+    $(this).addClass('active')
+            .siblings().removeClass('active');
+    var stb_index4=stb1.index(this);//index(this)获取对象参数 获取ct的第几个
+    $('.pay-s').eq(stb_index4).show()//如果ct的和li相等就显示
+            .siblings().hide();//隐藏掉上一个执行
+});
+
+$('.bd:gt(0)').hide();//隐藏大于0
+var stb6=$('.jl label');
+stb6.click(function(){
+    $(this).addClass('active')
+            .siblings().removeClass('active');
+    var stb_index3=stb6.index(this);//index(this)获取对象参数 获取ct的第几个
+    $('.bd').eq(stb_index3).show()//如果ct的和li相等就显示
+            .siblings().hide();//隐藏掉上一个执行
+});
+$('.bd1:gt(0)').hide();//隐藏大于0
+var stb8=$('.jl1 label');
+stb8.click(function(){
+    $(this).addClass('active')
+            .siblings().removeClass('active');
+    var stb_index1=stb8.index(this);//index(this)获取对象参数 获取ct的第几个
+    $('.bd1').eq(stb_index1).show()//如果ct的和li相等就显示
+            .siblings().hide();//隐藏掉上一个执行
+});
+function xiangqing() {
+    layer.open({
+        type: 1,
+        skin: 'a-gg', //样式类名
+        closeBtn: 1, //不显示关闭按钮
+        shift: 2,
+        title: '充值详情',
+        shadeClose: true, //开启遮罩关闭
+        content: '<div><p>充值订单：121545612125</p><p>充值充值时间：2016-08-22  09:42:06</p><p>充值产品：龙之6</p><p>充值账号：15151515@qq.com</p><p>充值类型：龙币</p><p>充值数量：1000</p><p>订单金额：10.00元</p></div>'
+    });
+}
+</script>
+</html>
+

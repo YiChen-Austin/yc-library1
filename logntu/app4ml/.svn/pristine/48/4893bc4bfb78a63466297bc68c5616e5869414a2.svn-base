@@ -1,0 +1,12 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="head.jsp"%>
+<div class="header">
+	<div class="w1100 header-div">
+		<a href ="<%=project%>/member/main"><img src="<%=path%>/images/logo.png" class="fl"></a> <span class="fl"> |
+			个人中心 </span>
+		<div class="fr header-zh">
+			<a class="header-a">您好，${session_mem_user.userName}</a> | <a href="<%=project%>/member/exit">退出</a>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,57 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<%@ include file="../include/head.jsp"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>公告内容</title>
+<link rel="icon" href="<%=path%>/images/logo/ml_ico.ico"
+	type="image/x-icon" />
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<meta name="Description" content="龙途" />
+<meta name="Keywords" content="漫浪游戏,通行证,密宝,SDO,SNDA,网络游戏,游戏充值，龙途，传奇" />
+<link href="<%=path%>/css/style.css" rel="stylesheet" />
+</head>
+<body>
+<jsp:include page="../include/top.jsp" >
+	<jsp:param name="tag" value="announ" />
+</jsp:include>
+<div class="announ-banner"></div>
+<div class="w1200 announ-con">
+    <div class="announ-tit">
+        <h1>神将刷图PK宠物推荐 进化技选择 </h1>
+        <span>【公告】</span><span>|</span></spa><span>发布时间：2016/08/29</span>
+    </div>
+    <div class="content">
+        <p>对玩家来说，一只好的宠物就是西行路上强有力的保证。但是呢，不少新手玩家对眼花缭乱的本源技和进化技感到头疼，无从下手。所以今天这贴就是让新手玩家少走弯路。
+        当然老玩家也可以一起来指导一下哈。</p>
+        <p>
+            目前宠物最好的就是魔化阿玉，阿玉，当然魔化至尊宝，至尊宝也都很好，但是这些宠物土豪专属，大部分人是搞不到的，然后像魔化泥鳅和泥鳅说实话都是华而不实，所
+            以这里就不多说了。
+        </p>
+        <p>
+            刷图类宠物推荐：
+        </p>
+        <p>
+            1、花妖：主人周围10米内所有目标防御降低8%。
+        </p>
+        <p>
+            这个效果是常驻的，不用像虎仙那样靠脸，俗话说得好，稳定压倒一切嘛。
+        </p>
+        <p>
+            2、狮僧：每次攻击都有10%几率使伤害增加3%，持续5秒，最多3层。
+        </p>
+        <p>
+            3、虎仙：每次攻击有百分5几率使下2秒内伤害提升100%，10秒冷却。
+        </p>
+        <p>
+            这两个宠物纷争由来已久，说实话我也不知道该说哪一个宠物更好，整体比下来是差不多的。狮僧比较稳定，适合脸黑同学，而虎仙就是要他爆发那一下的酸爽。玩家自行
+            选择吧。
+        </p>
+    </div>
+</div>
+<jsp:include page="../include/bottom.jsp" />
+</body>
+</html>
+

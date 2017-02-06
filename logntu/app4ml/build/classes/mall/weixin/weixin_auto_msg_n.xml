@@ -1,7 +1,0 @@
-<xml>
-	<ToUserName><![CDATA[{toUserName}]]></ToUserName>
-	<FromUserName><![CDATA[{fromUserName}]]></FromUserName>
-	<CreateTime>{time}</CreateTime>
-	<MsgType><![CDATA[text]]></MsgType>
-    <Content><![CDATA[亲，<a href="http://a.app.qq.com/o/simple.jsp?pkgname=com.wzmall.shopping.main.controller">下载全球狗app</a>，更多优惠、更多惊喜，更多创业机会等着您哟!]]></Content>
-</xml> 
